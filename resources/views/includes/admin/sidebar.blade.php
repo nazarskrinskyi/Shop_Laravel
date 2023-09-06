@@ -25,7 +25,7 @@
                             data-accordion="false">
 
                             <li class="nav-item">
-                                <a href="{{ route('admin') }}" class="nav-link">
+                                <a href="{{ route('admin.index') }}" class="nav-link">
                                     <i class="nav-icon fa fa-home"></i>
                                     <p>
                                         Main
@@ -35,7 +35,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ '' }}" class="nav-link">
-                                    <i class="nav-icon far fa-list-alt"></i>
+                                    <i class="nav-icon far fa-folder"></i>
                                     <p>
                                         Products
                                     </p>
@@ -43,7 +43,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{ '' }}" class="nav-link">
+                                <a href="{{ route('admin.category.index') }}" class="nav-link">
                                     <i class="nav-icon far fa-list-alt"></i>
                                     <p>
                                         Categories
@@ -53,7 +53,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ '' }}" class="nav-link">
-                                    <i class="fas fa-tags"></i>
+                                    <i class="nav-icon fas fa-users"></i>
                                     <p>
                                         Users
                                     </p>
@@ -62,7 +62,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ '' }}" class="nav-link">
-                                    <i class="nav-icon fas fa-bookmark"></i>
+                                    <i class="nav-icon fas fa-comment"></i>
                                     <p>
                                         Comments
                                     </p>
@@ -71,7 +71,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ '' }}" class="nav-link">
-                                    <i class="nav-icon fas fa-users"></i>
+                                    <i class="nav-icon fas fa-bookmark"></i>
                                     <p>
                                         Orders
                                     </p>
@@ -80,7 +80,7 @@
 
                             <li class="nav-item">
                                 <a href="{{ '' }}" class="nav-link">
-                                    <i class="nav-icon fas fa-users"></i>
+                                    <i class="nav-icon fas fa-tags"></i>
                                     <p>
                                         Tags
                                     </p>
@@ -88,8 +88,8 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{ '' }}" class="nav-link">
-                                    <i class="nav-icon fas fa-users"></i>
+                                <a href="{{ route('admin.color.index') }}" class="nav-link">
+                                    <i class="nav-icon fas fa-palette"></i>
                                     <p>
                                         Colors
                                     </p>
