@@ -40,4 +40,34 @@ Route::group(['prefix' => 'admin', "namespace" => 'App\Http\Controllers\Admin',]
         Route::delete('/{color}', DeleteController::class)->name('admin.color.delete');
     });
 
+    Route::group(['prefix' => 'users', "namespace" => 'User'], function () {
+        Route::get('/', IndexController::class)->name('admin.user.index');
+        Route::get('/create', CreateController::class)->name('admin.user.create');
+        Route::get('/{user}/edit', EditController::class)->name('admin.user.edit');
+        Route::post('/', StoreController::class)->name('admin.user.store');
+        Route::get('/{user}', ShowController::class)->name('admin.user.show');
+        Route::patch('/{user}', UpdateController::class)->name('admin.user.update');
+        Route::delete('/{user}', DeleteController::class)->name('admin.user.delete');
+    });
+
+    Route::group(['prefix' => 'tags', "namespace" => 'Tag'], function () {
+        Route::get('/', IndexController::class)->name('admin.tag.index');
+        Route::get('/create', CreateController::class)->name('admin.tag.create');
+        Route::get('/{tag}/edit', EditController::class)->name('admin.tag.edit');
+        Route::post('/', StoreController::class)->name('admin.tag.store');
+        Route::get('/{tag}', ShowController::class)->name('admin.tag.show');
+        Route::patch('/{tag}', UpdateController::class)->name('admin.tag.update');
+        Route::delete('/{tag}', DeleteController::class)->name('admin.tag.delete');
+    });
+
+    Route::group(['prefix' => 'products', "namespace" => 'Product'], function () {
+        Route::get('/', IndexController::class)->name('admin.product.index');
+        Route::get('/create', CreateController::class)->name('admin.product.create');
+        Route::get('/{product}/edit', EditController::class)->name('admin.product.edit');
+        Route::post('/', StoreController::class)->name('admin.product.store');
+        Route::get('/{product}', ShowController::class)->name('admin.product.show');
+        Route::patch('/{product}', UpdateController::class)->name('admin.product.update');
+        Route::delete('/{product}', DeleteController::class)->name('admin.product.delete');
+    });
+
 });

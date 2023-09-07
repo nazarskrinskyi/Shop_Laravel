@@ -15,11 +15,10 @@ class IndexController extends BaseController
     /**
      * @throws BindingResolutionException
      */
-    public function __invoke(FilterRequest $request): View|RedirectResponse
+    public function __invoke(): View|RedirectResponse
     {
-        $data = $request->validated();
-        $filter = app()->make(UserFilter::class, ['queryParams' => array_filter($data)]);
-        $users = User::filter($filter)->paginate(10);
+        $users = User::paginate(10);
+
         if (isset($_GET['page'])) {
             if ($_GET['page'] < 1 || $_GET['page'] > $users->lastPage()) {
                 return redirect(explode('?', $_SERVER['REQUEST_URI'])[0] . "?page=1");

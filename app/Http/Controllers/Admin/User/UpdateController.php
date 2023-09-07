@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin\User;
 
-use App\Http\Requests\Admin\User\UpdateRequest;
+use App\Http\Requests\User\UpdateRequest;
 use App\Models\User;
 
 class UpdateController extends BaseController

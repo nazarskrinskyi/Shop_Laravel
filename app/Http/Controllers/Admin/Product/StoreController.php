@@ -1,16 +1,17 @@
 <?php
 
-namespace App\Http\Controllers\Admin\User;
+namespace App\Http\Controllers\Admin\Product;
 
-use App\Http\Requests\User\StoreRequest;
+use App\Http\Requests\Product\StoreRequest;
 use Illuminate\Http\RedirectResponse;
 
 class StoreController extends BaseController
 {
     public function __invoke(StoreRequest $request): RedirectResponse
     {
+
         $data = $request->validated();
-        $user = $this->service->store($data);
-        return redirect()->route('admin.user.index');
+        $product = $this->service->store($data);
+        return redirect()->route('admin.product.index', $product->id);
     }
 }

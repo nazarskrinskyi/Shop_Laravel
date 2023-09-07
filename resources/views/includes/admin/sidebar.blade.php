@@ -34,7 +34,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{ '' }}" class="nav-link">
+                                <a href="{{ route('admin.product.index') }}" class="nav-link">
                                     <i class="nav-icon far fa-folder"></i>
                                     <p>
                                         Products
@@ -52,7 +52,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{ '' }}" class="nav-link">
+                                <a href="{{ route('admin.user.index') }}" class="nav-link">
                                     <i class="nav-icon fas fa-users"></i>
                                     <p>
                                         Users
@@ -79,7 +79,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a href="{{ '' }}" class="nav-link">
+                                <a href="{{ route('admin.tag.index') }}" class="nav-link">
                                     <i class="nav-icon fas fa-tags"></i>
                                     <p>
                                         Tags

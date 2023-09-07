@@ -67,7 +67,7 @@
 
     <!-- Content Section -->
     <section class="content" style="background: white">
-        <div class="container p-3">
+        <div class="p-3">
             @yield('content')
         </div>
     </section>
@@ -86,6 +86,7 @@
 <script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.js') }}"></script>
 
 <script src="{{ asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js') }}"></script>
+<script src="{{ asset('plugins/summernote/summernote-bs4.js') }}"></script>
 
 <script src="{{ asset('plugins/select2/js/select2.full.min.js') }}"></script>
 <!-- overlayScrollbars -->

@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="p-2">
-        <a class="btn btn-primary mb-3" href="{{ route('admin.user.create') }}">Create User</a>
+        <a class="btn btn-primary mb-3" href="{{ route('admin.product.create') }}">Create Product</a>
 
         <table class="table" style="border: 2px solid #1b1e21">
             <thead>
@@ -20,35 +20,35 @@
             </tr>
             </thead>
             <tbody>
-            @foreach($users as $user)
+            @foreach($products as $product)
                 <tr style="border: 2px solid darkgrey">
-                    <th class="text-center" scope="row">{{ $user->id }}</th>
-                    <td class="text-center"><a href="{{ route('admin.user.show', $user->id) }}">{{ $user->name }}</a></td>
-                    <td class="text-center">{{ $user->surname }}</td>
-                    <td class="text-center">{{ $user->age }}</td>
-                    <td class="text-center">{{ $user->genderTitle }}</td>
+                    <th class="text-center" scope="row">{{ $product->id }}</th>
+                    <td class="text-center"><a href="{{ route('admin.product.show', $product->id) }}">{{ $product->name }}</a></td>
+                    <td class="text-center">{{ $product->surname }}</td>
+                    <td class="text-center">{{ $product->age }}</td>
+                    <td class="text-center">{{ $product->genderTitle }}</td>
                     <td class="text-center">
                         <div class="textContainer">
                             <p class="displayText">
-                                {{ $user->address }}
+                                {{ $product->address }}
                             </p>
                             <button class="toggleButton btn-primary btn-sm">Show-more</button>
                         </div>
                     </td>
-                    <td class="text-center">{{ $user->patronymic }}</td>
-                    <td class="text-center">{{ $user->email }}</td>
+                    <td class="text-center">{{ $product->patronymic }}</td>
+                    <td class="text-center">{{ $product->email }}</td>
                     <td class="text-center">
                         <div class="textContainer">
                             <p class="displayText">
-                                {{ $user->password }}
+                                {{ $product->password }}
                             </p>
                             <button class="toggleButton btn-primary btn-sm">Show-more</button>
                         </div>
                     </td>
                     <td class="text-center">
-                        <a href="{{ route('admin.user.edit', $user->id) }}"
+                        <a href="{{ route('admin.product.edit', $product->id) }}"
                            class="btn btn-sm btn-outline-primary">Edit</a>
-                        <form method="POST" action="{{ route('admin.user.delete', $user->id) }}"
+                        <form method="POST" action="{{ route('admin.product.delete', $product->id) }}"
                               class="d-inline-block">
                             @csrf
                             @method('DELETE')
@@ -67,7 +67,7 @@
     </div>
 
     <!-- Display the pagination links -->
-    @if($users->lastPage() > 1 && isset($_GET['page']))
+    @if($products->lastPage() > 1 && isset($_GET['page']))
         <div class="pagination justify-content-center">
             <nav aria-label="Page navigation ">
                 <ul class="pagination">
@@ -82,13 +82,13 @@
                         </li>
                     @endif
 
-                    @for($i = 1;$i <= $users->lastPage();$i++)
+                    @for($i = 1;$i <= $products->lastPage();$i++)
                         <li class="page-item"><a class="page-link"
                                                  href="{{ isset($_GET['tags']) ? "?tags=$_GET[tags]&page=".$i : '?page='.$i }}">{{ $i }}</a>
                         </li>
                     @endfor
 
-                    @if($users->lastPage() > $_GET['page'])
+                    @if($products->lastPage() > $_GET['page'])
                         <li class="page-item">
                             <a class="page-link"
                                href="{{ isset($_GET['tags']) ? "?tags=$_GET[tags]&page=".$_GET['page']+1 : '?page='.$_GET['page']+1 }}"
