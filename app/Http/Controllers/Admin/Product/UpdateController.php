@@ -10,7 +10,6 @@ class UpdateController extends BaseController
     public function __invoke(Product $product, UpdateRequest $request)
     {
         $data = $request->validated();
-
         $product = $this->service->update($data, $product);
         return redirect()->route('admin.product.show', $product->id);
     }

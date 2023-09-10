@@ -1,7 +1,9 @@
 @extends('layouts.admin')
 @section('content')
     <div>
+        <div class="text-right">
         <a class="btn btn-primary mb-3" href="{{ route('admin.tag.create') }}">Create Tag</a>
+        </div>
 
         <table class="table"  style="border: 2px solid #1b1e21">
             <thead>

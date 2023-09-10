@@ -30,7 +30,33 @@
     <!-- summernote -->
     <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-...">
+    <style>
+        /* Define the style for the tags */
+        .tag {
+            display: inline-block;
+            padding: 4px 10px;
+            background-color: #f2f2f2;
+            color: #333;
+            border-radius: 4px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            transition: 0.5s;
 
+        }
+
+        .tag:hover {
+            color: deepskyblue;
+            transition: 0.5s;
+        }
+
+        /* Optional: If you want to align the tags in the center */
+        .tags-cell {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">

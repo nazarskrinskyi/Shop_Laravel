@@ -26,8 +26,9 @@
                     @enderror
                 </div>
 
-                <div class="mb-3 col-md-12 row">
+                <div class="mb-3 col-md-12">
                     <label for="summernote" class="form-label">Content</label>
+
                     <textarea type="text" id="summernote" class="form-control"
                               name="content" placeholder="content..." autocomplete="on">{{ old('content') }}
                     </textarea>
@@ -36,7 +37,39 @@
                     @enderror
                 </div>
 
-             
+                <div class="mb-3 col-md-12 row">
+                    <div class="col-6">
+                        <label for="exampleInputFile">Preview Image</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" name="preview_image">
+                                <label class="custom-file-label">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                        @error('preview_image')
+                        <strong class="text-danger">{{ $message }}</strong>
+                        @enderror
+                    </div>
+                    <div class="col-6">
+                        <label for="exampleInputFile">Hover Image</label>
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" name="hover_image">
+                                <label class="custom-file-label">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                        @error('hover_image')
+                        <strong class="text-danger">{{ $message }}</strong>
+                        @enderror
+                    </div>
+                </div>
+
                 <div class="mb-3 col-12 row justify-content-between">
                     <div class="col-6">
                         <label for="cost" class="form-label">Price</label>
@@ -47,11 +80,11 @@
                         @enderror
                     </div>
                     <div class="col-6">
-                        <label for="quantity" class="form-label">Quantity</label>
-                        <input type="number" min="1" id="quantity" autocomplete="on" class="form-control"
-                               name="quantity"
-                               placeholder="quantity..." value="{{ old('quantity') }}">
-                        @error('quantity')
+                        <label for="cost" class="form-label">Discount Price</label>
+                        <input type="number" min="1" id="cost" autocomplete="on" class="form-control"
+                               name="discount_price"
+                               placeholder="discount_price..." value="{{ old('discount_price') }}">
+                        @error('discount_price')
                         <strong class="text-danger">{{ $message }}</strong>
                         @enderror
                     </div>
@@ -76,7 +109,8 @@
 
                     <div class="col-6">
                         <label for="tags" class="form-label">Tags</label>
-                        <select id="tags" name="tags[]" class="select2-primary select2-cyan w-100" multiple="multiple"
+                        <select id="tags" name="tags[]" class="select2-primary select2-cyan w-100"
+                                multiple="multiple"
                                 data-placeholder="Choose Tags">
                             @foreach($tags as $tag)
                                 <option
@@ -99,19 +133,14 @@
                 <div class="mb-3 col-12 row justify-content-between">
 
                     <div class="col-6">
-                        <label for="exampleInputFile">Image</label>
-                        <div class="input-group">
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" name="image">
-                                <label class="custom-file-label">Choose file</label>
-                            </div>
-                            <div class="input-group-append">
-                                <span class="input-group-text">Upload</span>
-                            </div>
-                        </div>
-                        @error('image')
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" min="1" id="quantity" autocomplete="on" class="form-control"
+                               name="quantity"
+                               placeholder="quantity..." value="{{ old('quantity') }}">
+                        @error('quantity')
                         <strong class="text-danger">{{ $message }}</strong>
                         @enderror
+
                     </div>
 
                     <div class="col-6">
@@ -139,8 +168,9 @@
                 </div>
 
                 <div class="form-group" style="font-size: large;margin-left: 10px">
-                    <input name="is_published" value="{{ true }}" {{ old("is_published") ? 'checked' : '' }}
-                    type="checkbox" id="is_published" class="form-control-check" style="transform: scale(1.7);">
+                    <input name="is_published" value="{{ true }}" checked
+                           type="checkbox" id="is_published" class="form-control-check"
+                           style="transform: scale(1.7);">
                     <label for="is_published" style="margin-left: 10px" class="form-label">Is Published</label>
                     @error('is_published')
                     <strong class="text-danger">{{ $message }}</strong>

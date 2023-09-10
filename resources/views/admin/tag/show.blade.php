@@ -3,6 +3,7 @@
 @section('content')
     <div>
         <h1 class="text-center">{{ $tag->title }}</h1>
+        <div class="text-right">
         <a class="btn btn-warning mb-3" href="{{ route('admin.tag.edit', $tag->id) }}">Edit Tag</a>
         <form method="POST" action="{{ route('admin.tag.delete', $tag->id) }}"
               class="d-inline-block">
@@ -12,6 +13,7 @@
                     onclick="return confirm('Are you sure?')">Delete
             </button>
         </form>
+        </div>
         <table class="table">
             <thead>
             <tr>

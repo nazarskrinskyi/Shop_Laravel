@@ -4,6 +4,8 @@
 
     <div>
         <h1 class="text-center">{{ $user->name }}</h1>
+        <div class="text-right">
+
         <a class="btn btn-warning mb-3" href="{{ route('admin.user.edit', $user->id) }}">Edit</a>
         <form method="POST" action="{{ route('admin.user.delete', $user->id) }}"
               class="d-inline-block">
@@ -13,6 +15,7 @@
                     onclick="return confirm('Are you sure?')">Delete
             </button>
         </form>
+        </div>
         <table class="table">
             <tbody>
             <tr class="col">

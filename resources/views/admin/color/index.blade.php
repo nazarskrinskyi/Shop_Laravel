@@ -1,9 +1,11 @@
 @extends('layouts.admin')
 @section('content')
     <div>
-        <a class="btn btn-primary mb-3" href="{{ route('admin.color.create') }}">Create Color</a>
+        <div class="text-right">
+            <a class="btn btn-primary mb-3" href="{{ route('admin.color.create') }}">Create Color</a>
+        </div>
 
-        <table class="table"  style="border: 2px solid #1b1e21">
+        <table class="table" style="border: 2px solid #1b1e21">
             <thead>
             <tr class="text-center" style="border: 4px solid #1b1e21">
                 <th scope="col">ID</th>
@@ -14,11 +16,14 @@
             </thead>
             <tbody>
             @foreach($colors as $color)
-                <tr  style="border: 2px solid darkgrey">
+                <tr style="border: 2px solid darkgrey">
                     <th class="text-center" scope="row">{{ $color->id }}</th>
-                    <td class="text-center"><a href="{{ route('admin.color.show', $color->id) }}">{{ $color->title }}</a></td>
+                    <td class="text-center"><a
+                            href="{{ route('admin.color.show', $color->id) }}">{{ $color->title }}</a></td>
                     <td style="text-align: center;">
-                        <div style="width: 20px; height: 20px; background: {{ '#' . $color->title }}; display: inline-block; vertical-align: middle;"><!-- Your content here --></div>
+                        <div
+                            style="width: 20px; height: 20px; background: {{ '#' . $color->title }}; display: inline-block; vertical-align: middle;">
+                            <!-- Your content here --></div>
                     </td>
                     <td class="text-center">
                         <a href="{{ route('admin.color.edit', $color->id) }}"

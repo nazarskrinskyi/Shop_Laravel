@@ -2,7 +2,9 @@
 @section('content')
 
     <div class="p-2">
+        <div class="text-right">
         <a class="btn btn-primary mb-3" href="{{ route('admin.user.create') }}">Create User</a>
+        </div>
 
         <table class="table" style="border: 2px solid #1b1e21">
             <thead>
@@ -10,10 +12,10 @@
                 <th scope="col">ID</th>
                 <th scope="col">Name</th>
                 <th scope="col">Surname</th>
+                <th scope="col">Patronymic</th>
                 <th scope="col">Age</th>
                 <th scope="col">Gender</th>
                 <th scope="col">Address</th>
-                <th scope="col">Patronymic</th>
                 <th scope="col">Email</th>
                 <th scope="col">Password</th>
                 <th scope="col">Action</th>
@@ -25,6 +27,7 @@
                     <th class="text-center" scope="row">{{ $user->id }}</th>
                     <td class="text-center"><a href="{{ route('admin.user.show', $user->id) }}">{{ $user->name }}</a></td>
                     <td class="text-center">{{ $user->surname }}</td>
+                    <td class="text-center">{{ $user->patronymic }}</td>
                     <td class="text-center">{{ $user->age }}</td>
                     <td class="text-center">{{ $user->genderTitle }}</td>
                     <td class="text-center">
@@ -35,7 +38,6 @@
                             <button class="toggleButton btn-primary btn-sm">Show-more</button>
                         </div>
                     </td>
-                    <td class="text-center">{{ $user->patronymic }}</td>
                     <td class="text-center">{{ $user->email }}</td>
                     <td class="text-center">
                         <div class="textContainer">
