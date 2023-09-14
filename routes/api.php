@@ -18,8 +18,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/products', \App\Http\Controllers\API\Product\IndexController::class);
-Route::get('/products/{product}', \App\Http\Controllers\API\Product\ShowController::class);
-Route::get('/categories', \App\Http\Controllers\API\Category\IndexController::class);
-Route::get('/tags', \App\Http\Controllers\API\Tag\IndexController::class);
-Route::get('/colors', \App\Http\Controllers\API\Color\IndexController::class);
+
+Route::group(['namespace' => "App\Http\Controllers\API\Product"], function (){
+    Route::get('/products/filters', FilterController::class);
+    Route::post('/products', IndexController::class);
+    Route::get('/products/{product}', ShowController::class);
+    Route::get('/categories', IndexController::class);
+    Route::get('/tags', IndexController::class);
+    Route::get('/colors', IndexController::class);
+});
+

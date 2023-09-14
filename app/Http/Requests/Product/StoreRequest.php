@@ -28,7 +28,7 @@ class StoreRequest extends FormRequest
             'preview_image' => 'required|image',
             'hover_image' => 'required|image',
             'price' => 'required|integer',
-            'discount_price' => 'required|integer',
+            'discount_price' => 'nullable|integer',
             'quantity' => 'required|integer',
             'category_id' => 'required|exists:categories,id',
             'is_published' => 'nullable',
