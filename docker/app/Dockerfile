@@ -16,6 +16,17 @@ RUN apt-get update && apt-get install -y \
 
 COPY ./docker/app/php.ini /usr/local/etc/php/conf.d/php.ini
 
+# Install Node.js 14.x
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN apt-get install -y nodejs
+RUN node -v
+# Install npm
+RUN apt-get install -y npm
+
+
+
+
+
 # Install composer
 ENV COMPOSER_ALLOW_SUPERUSER=1
 RUN curl -sS https://getcomposer.org/installer | php -- \
@@ -23,4 +34,3 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
     --install-dir=/usr/local/bin
 
 WORKDIR /var/www
-
