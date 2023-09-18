@@ -11,12 +11,15 @@ class ProductFilter extends AbstractFilter
     public const COLORS = 'colors';
     public const DISCOUNT_PRICES = 'discount_prices';
     public const TAGS = 'tags';
+
+    public const ID = 'id';
     protected function getCallbacks(): array
     {
         return [
             self::CATEGORIES => [$this, 'categories'],
             self::COLORS => [$this, 'colors'],
             self::TAGS => [$this, 'tags'],
+            self::ID => [$this, 'id'],
             self::DISCOUNT_PRICES => [$this, 'discount_prices'],
         ];
     }
@@ -25,6 +28,14 @@ class ProductFilter extends AbstractFilter
     {
         $builder->whereHas('categories', function ($b) use($value) {
             $b->whereIn('category_id', $value);
+        });
+    }
+    public function id(Builder $builder, $value): void
+    {
+        $builder->whereExists(function ($query) use ($value) {
+            $query->select('id')
+                ->from('products') // Replace 'products' with your actual table name if it's different
+                ->whereIn('id', $value);
         });
     }
 

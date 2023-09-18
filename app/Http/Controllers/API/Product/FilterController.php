@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API\Product;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Api\Product\IndexRequest;
 use App\Models\Category;
 use App\Models\Color;
 use App\Models\Product;
@@ -20,6 +21,7 @@ class FilterController extends Controller
         $categories = Category::all();
         $colors = Color::all();
         $tags = Tag::all();
+
 
         $minDiscountPrice = Product::min('discount_price');
 

@@ -20,7 +20,13 @@ class IndexController extends Controller
     {
         $data = $request->validated();
         $filter = app()->make(ProductFilter::class, ['queryParams' => array_filter($data)]);
-        $products = Product::filter($filter)->where('is_published', '=', 1)->paginate(1);
+        if (!isset($data['id'])) $products = Product::filter($filter)->where('is_published', '=', 1)->paginate(1);
+        else {
+            foreach ($data['id'] as $id) {
+                $products[] = Product::find($id);
+            }
+        }
+
         return ProductResource::collection($products);
     }
 }

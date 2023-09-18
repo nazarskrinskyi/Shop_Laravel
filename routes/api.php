@@ -1,6 +1,8 @@
 <?php
 
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::group(['namespace' => "App\Http\Controllers\API\Product"], function (){
+Route::group(['namespace' => "App\Http\Controllers\API\Product"], function () {
     Route::get('/products/filters', FilterController::class);
     Route::post('/products', IndexController::class);
     Route::get('/products/{product}', ShowController::class);
@@ -27,4 +29,11 @@ Route::group(['namespace' => "App\Http\Controllers\API\Product"], function (){
     Route::get('/tags', IndexController::class);
     Route::get('/colors', IndexController::class);
 });
+
+Route::group(['namespace' => "App\Http\Controllers\API\Order"], function () {
+    Route::post('/orders', IndexController::class);
+});
+
+
+Auth::routes();
 
