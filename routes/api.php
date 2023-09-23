@@ -1,8 +1,9 @@
 <?php
 
 
+use App\Http\Controllers\API\Auth\LoginController;
+use App\Http\Controllers\API\Auth\RegisterController;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,5 +36,6 @@ Route::group(['namespace' => "App\Http\Controllers\API\Order"], function () {
 });
 
 
-Auth::routes();
+
+
 

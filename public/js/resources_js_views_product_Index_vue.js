@@ -60,6 +60,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
       // Save the updated cart back to local storage
       localStorage.setItem('cart', JSON.stringify(cart));
+      $(document).trigger('change');
     },
     toggleSidebar: function toggleSidebar() {
       this.isSidebarActive = !this.isSidebarActive; // Toggle the class
@@ -68,6 +69,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       var prices = $('#priceRange').val();
       this.prices = prices.replaceAll(/[\s]|[£]/g, '').split('-');
       this.getProducts();
+      console.log(this.products);
     },
     addColor: function addColor(id) {
       if (!this.colors.includes(id)) {
@@ -113,9 +115,8 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       }).then(function (res) {
         _this.products = res.data.data;
         _this.pagination = res.data.meta;
-        console.log(res);
       })["catch"](function (error) {
-        console.log(error.response.response);
+        console.log(error);
       })["finally"](function (fin) {
         $(document).trigger('change');
       });
@@ -163,16 +164,18 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
         _this3.filters = res.data;
         //  Price Filter
         if ($("#price-range").length) {
-          var _this3$filters$price$, _this3$filters$price$2, _this3$filters$price$3;
+          var _this3$filters$price$, _this3$filters$price$2, _this3$filters$price$3, _this3$filters$price$4;
           $("#price-range").slider({
             range: true,
             min: (_this3$filters$price$ = _this3.filters.price.min_discount) !== null && _this3$filters$price$ !== void 0 ? _this3$filters$price$ : _this3.filters.price.min,
-            max: (_this3$filters$price$2 = _this3.filters.price.max_discount) !== null && _this3$filters$price$2 !== void 0 ? _this3$filters$price$2 : _this3.filters.price.max,
-            values: [(_this3$filters$price$3 = _this3.filters.price.min_discount) !== null && _this3$filters$price$3 !== void 0 ? _this3$filters$price$3 : _this3.filters.price.min, _this3.filters.price.max],
+            max: _this3.filters.price.max,
+            values: [(_this3$filters$price$2 = _this3.filters.price.min_discount) !== null && _this3$filters$price$2 !== void 0 ? _this3$filters$price$2 : _this3.filters.price.min, _this3.filters.price.max],
             slide: function slide(event, ui) {
               $("#priceRange").val("£" + ui.values[0] + " - £" + ui.values[1]);
             }
           });
+          console.log((_this3$filters$price$3 = _this3.filters.price.min_discount) !== null && _this3$filters$price$3 !== void 0 ? _this3$filters$price$3 : _this3.filters.price.min);
+          console.log((_this3$filters$price$4 = _this3.filters.price.min_discount) !== null && _this3$filters$price$4 !== void 0 ? _this3$filters$price$4 : _this3.filters.price.min);
           $("#priceRange").val("£" + $("#price-range").slider("values", 0) + " - £" + $("#price-range").slider("values", 1));
         }
         ;
@@ -203,7 +206,7 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "overflow-hidden"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"breadcrumb-area\" style=\"background-image:url(src/assets/images/814.jpg);\"><div class=\"container\"><div class=\"row\"><div class=\"col-xl-12\"><div class=\"breadcrumb-content pb-60 text-center wow fadeInUp animated\"><h2>Products</h2><div class=\"breadcrumb-menu\"><ul><li><a href=\"/\"><i class=\"flaticon-home pe-2\"></i>Home</a></li><li><i class=\"flaticon-next\"></i></li><li class=\"active\">Main page</li></ul></div></div></div></div></div></div>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"breadcrumb-area\" style=\"background-image:url(vue_front/assets/images/814.jpg);\"><div class=\"container\"><div class=\"row\"><div class=\"col-xl-12\"><div class=\"breadcrumb-content pb-60 text-center wow fadeInUp animated\"><h2>Products</h2><div class=\"breadcrumb-menu\"><ul><li><a href=\"/\"><i class=\"flaticon-home pe-2\"></i>Home</a></li><li><i class=\"flaticon-next\"></i></li><li class=\"active\">Main page</li></ul></div></div></div></div></div></div>", 1);
 var _hoisted_3 = {
   "class": "product-categories-one pb-60"
 };
@@ -225,7 +228,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "inner"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/product-categories-v1-img1.png",
+  src: "vue_front/assets/images/shop/product-categories-v1-img1.png",
   alt: ""
 })])], -1 /* HOISTED */);
 var _hoisted_9 = {
@@ -423,7 +426,7 @@ var _hoisted_57 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_58 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, " quick view", -1 /* HOISTED */);
 var _hoisted_59 = [_hoisted_57, _hoisted_58];
 var _hoisted_60 = ["id"];
-var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container\"><div class=\"row justify-content-between align-items-center\"><div class=\"col-lg-6\"><div class=\"quick-view__left-content\"><div class=\"tabs\"><div class=\"popup-product-thumb-box\"><ul><li class=\"tab-nav popup-product-thumb\"><a href=\"#tabb1\"><img src=\"src/assets/images/shop/products-v6-img5.jpg\" alt=\"\"></a></li><li class=\"tab-nav popup-product-thumb\"><a href=\"#tabb2\"><img src=\"src/assets/images/shop/products-v6-img6.jpg\" alt=\"\"></a></li><li class=\"tab-nav popup-product-thumb\"><a href=\"#tabb3\"><img src=\"src/assets/images/shop/products-v6-img7.jpg\" alt=\"\"></a></li></ul></div><div class=\"popup-product-main-image-box\"><div id=\"tabb1\" class=\"tab-item popup-product-image\"><div class=\"popup-product-single-image\"><img src=\"src/assets/images/shop/products-v6-img5.jpg\" alt=\"\"></div></div><button class=\"prev\"><i class=\"flaticon-back\"></i></button><button class=\"next\"><i class=\"flaticon-next\"></i></button></div></div></div></div><div class=\"col-lg-6\"><div class=\"popup-right-content\"><h3>Brown Office Shoe</h3><div class=\"ratting\"><i class=\"flaticon-star\"></i> <i class=\"flaticon-star\"></i> <i class=\"flaticon-star\"></i><i class=\"flaticon-star\"></i> <i class=\"flaticon-star\"></i><span>(112)</span></div><p class=\"text\"> Hydrating Plumping Intense Shine Lip Colour </p><div class=\"price\"><h2> $42 USD <del> $65 USD</del></h2><h6> In stuck</h6></div><div class=\"color-varient\"><a href=\"#0\" class=\"color-name pink\"><span>Pink</span></a> <a href=\"#0\" class=\"color-name red\"><span>Red</span></a><a href=\"#0\" class=\"color-name yellow\"><span>Yellow</span></a> <a href=\"#0\" class=\"color-name blue\"><span>Blue</span></a> <a href=\"#0\" class=\"color-name black\"><span>Black</span></a></div><div class=\"add-product\"><h6>Qty:</h6><div class=\"button-group\"><div class=\"qtySelector text-center\"><span class=\"decreaseQty\"><i class=\"flaticon-minus\"></i></span> <input type=\"number\" class=\"qtyValue\" value=\"1\"><span class=\"increaseQty\"><i class=\"flaticon-plus\"></i></span></div><button class=\"btn--primary\"> Add to Cart </button></div></div></div></div></div></div>", 1);
+var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container\"><div class=\"row justify-content-between align-items-center\"><div class=\"col-lg-6\"><div class=\"quick-view__left-content\"><div class=\"tabs\"><div class=\"popup-product-thumb-box\"><ul><li class=\"tab-nav popup-product-thumb\"><a href=\"#tabb1\"><img src=\"vue_front/assets/images/shop/products-v6-img5.jpg\" alt=\"\"></a></li><li class=\"tab-nav popup-product-thumb\"><a href=\"#tabb2\"><img src=\"vue_front/assets/images/shop/products-v6-img6.jpg\" alt=\"\"></a></li><li class=\"tab-nav popup-product-thumb\"><a href=\"#tabb3\"><img src=\"vue_front/assets/images/shop/products-v6-img7.jpg\" alt=\"\"></a></li></ul></div><div class=\"popup-product-main-image-box\"><div id=\"tabb1\" class=\"tab-item popup-product-image\"><div class=\"popup-product-single-image\"><img src=\"vue_front/assets/images/shop/products-v6-img5.jpg\" alt=\"\"></div></div><button class=\"prev\"><i class=\"flaticon-back\"></i></button><button class=\"next\"><i class=\"flaticon-next\"></i></button></div></div></div></div><div class=\"col-lg-6\"><div class=\"popup-right-content\"><h3>Brown Office Shoe</h3><div class=\"ratting\"><i class=\"flaticon-star\"></i> <i class=\"flaticon-star\"></i> <i class=\"flaticon-star\"></i><i class=\"flaticon-star\"></i> <i class=\"flaticon-star\"></i><span>(112)</span></div><p class=\"text\"> Hydrating Plumping Intense Shine Lip Colour </p><div class=\"price\"><h2> $42 USD <del> $65 USD</del></h2><h6> In stuck</h6></div><div class=\"color-varient\"><a href=\"#0\" class=\"color-name pink\"><span>Pink</span></a> <a href=\"#0\" class=\"color-name red\"><span>Red</span></a><a href=\"#0\" class=\"color-name yellow\"><span>Yellow</span></a> <a href=\"#0\" class=\"color-name blue\"><span>Blue</span></a> <a href=\"#0\" class=\"color-name black\"><span>Black</span></a></div><div class=\"add-product\"><h6>Qty:</h6><div class=\"button-group\"><div class=\"qtySelector text-center\"><span class=\"decreaseQty\"><i class=\"flaticon-minus\"></i></span> <input type=\"number\" class=\"qtyValue\" value=\"1\"><span class=\"increaseQty\"><i class=\"flaticon-plus\"></i></span></div><button class=\"btn--primary\"> Add to Cart </button></div></div></div></div></div></div>", 1);
 var _hoisted_62 = [_hoisted_61];
 var _hoisted_63 = {
   "class": "products-three-single-content text-center"
@@ -594,7 +597,7 @@ var _hoisted_122 = {
 };
 var _hoisted_123 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"qtySelector text-center\"><span class=\"decreaseQty\"><i class=\"flaticon-minus\"></i></span> <input type=\"number\" class=\"qtyValue\" value=\"1\"><span class=\"increaseQty\"><i class=\"flaticon-plus\"></i></span></div>", 1);
 var _hoisted_124 = ["onClick"];
-var _hoisted_125 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"payment-method\"><a href=\"#0\"><img src=\"src/assets/images/payment_method/method_1.png\" alt=\"\"></a> <a href=\"#0\"><img src=\"src/assets/images/payment_method/method_2.png\" alt=\"\"></a> <a href=\"#0\"><img src=\"src/assets/images/payment_method/method_3.png\" alt=\"\"></a><a href=\"#0\"><img src=\"src/assets/images/payment_method/method_4.png\" alt=\"\"></a></div>", 1);
+var _hoisted_125 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"payment-method\"><a href=\"#0\"><img src=\"vue_front/assets/images/payment_method/method_1.png\" alt=\"\"></a> <a href=\"#0\"><img src=\"vue_front/assets/images/payment_method/method_2.png\" alt=\"\"></a> <a href=\"#0\"><img src=\"vue_front/assets/images/payment_method/method_3.png\" alt=\"\"></a><a href=\"#0\"><img src=\"vue_front/assets/images/payment_method/method_4.png\" alt=\"\"></a></div>", 1);
 var _hoisted_126 = {
   key: 1,
   "class": "product-grid-two-content text-center"

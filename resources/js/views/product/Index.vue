@@ -2,7 +2,7 @@
 
   <main class="overflow-hidden ">
     <!--Start Breadcrumb Style2-->
-    <div class="breadcrumb-area" style="background-image: url(src/assets/images/814.jpg);">
+    <div class="breadcrumb-area" style="background-image: url(vue_front/assets/images/814.jpg);">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
@@ -30,7 +30,7 @@
               <ul>
                 <li v-for="category in filters.categories">
                   <a href="#0" class="img-box">
-                    <div class="inner"><img src="src/assets/images/shop/product-categories-v1-img1.png" alt=""/></div>
+                    <div class="inner"><img src="vue_front/assets/images/shop/product-categories-v1-img1.png" alt=""/></div>
                   </a>
                   <div class="title"><a href="#0">
                     <h6>{{ category.title }}</h6>
@@ -195,17 +195,17 @@
                                           <li
                                               class="tab-nav popup-product-thumb">
                                             <a href="#tabb1">
-                                              <img src="src/assets/images/shop/products-v6-img5.jpg"
+                                              <img src="vue_front/assets/images/shop/products-v6-img5.jpg"
                                                    alt=""/> </a></li>
                                           <li
                                               class="tab-nav popup-product-thumb ">
                                             <a href="#tabb2">
-                                              <img src="src/assets/images/shop/products-v6-img6.jpg"
+                                              <img src="vue_front/assets/images/shop/products-v6-img6.jpg"
                                                    alt=""/> </a></li>
                                           <li
                                               class="tab-nav popup-product-thumb ">
                                             <a href="#tabb3">
-                                              <img src="src/assets/images/shop/products-v6-img7.jpg"
+                                              <img src="vue_front/assets/images/shop/products-v6-img7.jpg"
                                                    alt=""/> </a></li>
                                         </ul>
                                       </div>
@@ -214,7 +214,7 @@
                                              class="tab-item popup-product-image">
                                           <div
                                               class="popup-product-single-image">
-                                            <img src="src/assets/images/shop/products-v6-img5.jpg"
+                                            <img src="vue_front/assets/images/shop/products-v6-img5.jpg"
                                                  alt=""/></div>
                                         </div>
 
@@ -398,10 +398,10 @@
                                       </div>
                                     </div>
                                     <div class="payment-method"><a href="#0"> <img
-                                        src="src/assets/images/payment_method/method_1.png" alt=""> </a> <a href="#0">
-                                      <img src="src/assets/images/payment_method/method_2.png" alt=""> </a> <a
-                                        href="#0"> <img src="src/assets/images/payment_method/method_3.png" alt=""> </a>
-                                      <a href="#0"> <img src="src/assets/images/payment_method/method_4.png" alt="">
+                                        src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a> <a href="#0">
+                                      <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a
+                                        href="#0"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                                      <a href="#0"> <img src="vue_front/assets/images/payment_method/method_4.png" alt="">
                                       </a></div>
                                   </div>
                                 </div>
@@ -525,6 +525,7 @@ export default {
 
       // Save the updated cart back to local storage
       localStorage.setItem('cart', JSON.stringify(cart));
+      $(document).trigger('change')
 
     },
 
@@ -536,6 +537,7 @@ export default {
       let prices = $('#priceRange').val()
       this.prices = prices.replaceAll(/[\s]|[£]/g, '').split('-')
       this.getProducts()
+      console.log(this.products)
     },
 
     addColor(id) {
@@ -573,7 +575,7 @@ export default {
       return check;
     },
     getProducts(page = 1) {
-      this.axios.post('/api/products', {
+      this.axios.post('http://127.0.0.1:8000/api/products', {
         'tags': this.tags,
         'discount_prices': this.prices,
         'categories': this.categories,
@@ -581,12 +583,13 @@ export default {
         'page': page,
       })
           .then(res => {
+
             this.products = res.data.data;
             this.pagination = res.data.meta;
-            console.log(res)
+
           })
           .catch(error => {
-            console.log(error.response.response)
+            console.log(error)
           })
           .finally(fin => {
             $(document).trigger('change')
@@ -595,7 +598,7 @@ export default {
 
 
     getProduct(id) {
-      this.axios.get(`/api/products/${id}`)
+      this.axios.get(`http://127.0.0.1:8000/api/products/${id}`)
           .then(res => {
             this.popUpProduct = res.data.data;
           })
@@ -622,7 +625,7 @@ export default {
 
 
     getFilters() {
-      this.axios.get('/api/products/filters')
+      this.axios.get('http://127.0.0.1:8000/api/products/filters')
           .then(res => {
             this.filters = res.data;
             //  Price Filter
@@ -630,7 +633,7 @@ export default {
               $("#price-range").slider({
                 range: true,
                 min: this.filters.price.min_discount ?? this.filters.price.min,
-                max: this.filters.price.max_discount ?? this.filters.price.max,
+                max: this.filters.price.max,
                 values: [
                   this.filters.price.min_discount ?? this.filters.price.min,
                   this.filters.price.max
@@ -639,9 +642,10 @@ export default {
                   $("#priceRange").val("£" + ui.values[0] + " - £" + ui.values[1]);
                 }
               });
+              console.log(this.filters.price.min_discount ?? this.filters.price.min);
+              console.log(this.filters.price.min_discount ?? this.filters.price.min);
               $("#priceRange").val("£" + $("#price-range").slider("values", 0) + " - £" + $("#price-range").slider("values", 1));
-            }
-            ;
+            };
 
           })
           .catch(error => {

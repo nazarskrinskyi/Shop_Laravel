@@ -165,7 +165,7 @@
                   <h4>Guranteed Safe Checkout</h4>
                   <ul class="shop-details-top-safe-checkout-list">
                     <li>
-                      <div class="shop-details-top-safe-checkout-img"> <a href="#0"><img src="http://localhost:5173/src/assets/images/shop/shop-details-top-safe-checkout-img-1.jpg" alt=""></a> </div>
+                      <div class="shop-details-top-safe-checkout-img"> <a href="#0"><img src="vue_front/assets/images/shop/shop-details-top-safe-checkout-img-1.jpg" alt=""></a> </div>
                     </li>
 
                   </ul>
@@ -224,7 +224,7 @@
                 <div v-html="product.content"></div>
                 <div class="row align-items-center">
                   <div class="col-lg-4 mt-30 ">
-                    <div class="thumb"> <img src="http://localhost:5173/src/assets/images/shop/shop-details-tab-content-specification-img-1.jpg" alt=""> </div>
+                    <div class="thumb"> <img src="vue_front/assets/images/shop/shop-details-tab-content-specification-img-1.jpg" alt=""> </div>
                   </div>
                   <div class="col-lg-8 mt-30">
                     <h4>Specification:</h4>
@@ -451,7 +451,7 @@
             <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1392px; transform: translate3d(-696px, 0px, 0px);"><div class="products-grid-one slick-slide" style="width: 204px;" data-slick-index="0" aria-hidden="true" tabindex="-1">
               <div class="products-grid-one__product-image">
                 <div class="products-grid-one__badge-box"> <span class="bg_base badge new ">New</span>
-                </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/shop/products-img1.jpg" alt="Alt"> </a>
+                </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="-1"> <img src="vue_front/assets/images/shop/products-img1.jpg" alt="Alt"> </a>
                 <div class="products-grid__usefull-links">
                   <ul>
                     <li><a href="wishlist.html" tabindex="-1"> <i class="flaticon-heart"> </i> <span>
@@ -471,22 +471,22 @@
                           <div class="popup-product-thumb-box">
                             <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab7" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"> <a href="#tab7" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img1.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img1.jpg" alt="img"> </a> </li>
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab8" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false"> <a href="#tab8" tabindex="-1" class="ui-tabs-anchor" id="ui-id-2">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img2.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img2.jpg" alt="img"> </a> </li>
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab9" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false"> <a href="#tab9" tabindex="-1" class="ui-tabs-anchor" id="ui-id-3">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img3.jpg" alt="img"> </a> </li>
                             </ul>
                           </div>
                           <div class="popup-product-main-image-box">
                             <div id="tab7" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img1.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img1.jpg" alt="img"> </div>
                             </div>
                             <div id="tab8" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-2" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img2.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img2.jpg" alt="img"> </div>
                             </div>
                             <div id="tab9" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-3" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img3.jpg" alt="img"> </div>
                             </div> <button class="prev" tabindex="-1"> <i class="flaticon-back"></i>
                           </button> <button class="next" tabindex="-1"> <i class="flaticon-next"></i>
                           </button>
@@ -517,9 +517,9 @@
                           </button>
                           </div>
                         </div>
-                        <div class="payment-method"> <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_1.png" alt=""> </a>
-                          <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_3.png" alt=""> </a>
-                          <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_4.png" alt=""> </a> </div>
+                        <div class="payment-method"> <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a>
+                          <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                          <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_4.png" alt=""> </a> </div>
                       </div>
                     </div>
                   </div>
@@ -535,7 +535,7 @@
               </div>
             </div><div class="products-grid-one slick-slide" style="width: 204px;" data-slick-index="1" aria-hidden="true" tabindex="-1">
               <div class="products-grid-one__product-image">
-                <div class="products-grid-one__badge-box"> <span class="bg_black badge discount">-20%</span> </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="-1"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="Alt"> </a>
+                <div class="products-grid-one__badge-box"> <span class="bg_black badge discount">-20%</span> </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="-1"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="vue_front/assets/images/shop/products-img3.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="vue_front/assets/images/shop/products-img4.jpg" alt="Alt"> </a>
                 <div class="products-grid__usefull-links">
                   <ul>
                     <li><a href="wishlist.html" tabindex="-1"> <i class="flaticon-heart"> </i> <span>
@@ -555,22 +555,22 @@
                           <div class="popup-product-thumb-box">
                             <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab777" aria-labelledby="ui-id-4" aria-selected="true" aria-expanded="true"> <a href="#tab777" tabindex="-1" class="ui-tabs-anchor" id="ui-id-4">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img3.jpg" alt="img"> </a> </li>
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab888" aria-labelledby="ui-id-5" aria-selected="false" aria-expanded="false"> <a href="#tab888" tabindex="-1" class="ui-tabs-anchor" id="ui-id-5">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img4.jpg" alt="img"> </a> </li>
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab999" aria-labelledby="ui-id-6" aria-selected="false" aria-expanded="false"> <a href="#tab999" tabindex="-1" class="ui-tabs-anchor" id="ui-id-6">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img5.jpg" alt="img"> </a> </li>
                             </ul>
                           </div>
                           <div class="popup-product-main-image-box">
                             <div id="tab777" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-4" role="tabpanel" aria-hidden="false">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img3.jpg" alt="img"> </div>
                             </div>
                             <div id="tab888" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-5" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="img"> </div>
                             </div>
                             <div id="tab999" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-6" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="img"> </div>
                             </div> <button class="prev" tabindex="-1"> <i class="flaticon-back"></i>
                           </button> <button class="next" tabindex="-1"> <i class="flaticon-next"></i>
                           </button>
@@ -601,9 +601,9 @@
                           </button>
                           </div>
                         </div>
-                        <div class="payment-method"> <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_1.png" alt=""> </a>
-                          <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_3.png" alt=""> </a>
-                          <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_4.png" alt=""> </a> </div>
+                        <div class="payment-method"> <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a>
+                          <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                          <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_4.png" alt=""> </a> </div>
                       </div>
                     </div>
                   </div>
@@ -618,14 +618,14 @@
                 </div>
               </div>
               <div class="products-grid-one__thumb-box">
-                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> blue </span> <img src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> Black </span> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="vue_front/assets/images/shop/products-img3.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> blue </span> <img src="vue_front/assets/images/shop/products-img4.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Black </span> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="Alt"> </p>
               </div>
             </div><div class="products-grid-one slick-slide" style="width: 204px;" data-slick-index="2" aria-hidden="true" tabindex="-1">
               <div class="products-grid-one__product-image">
                 <div class="products-grid-one__badge-box"> <span class="bg_base badge new ">New</span>
-                  <span class="bg_black badge discount">-30%</span> </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="-1"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="Alt"> </a>
+                  <span class="bg_black badge discount">-30%</span> </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="-1"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="vue_front/assets/images/shop/products-img4.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="vue_front/assets/images/shop/products-img5.jpg" alt="Alt"> </a>
                 <div class="products-grid__usefull-links">
                   <ul>
                     <li><a href="wishlist.html" tabindex="-1"> <i class="flaticon-heart"> </i> <span>
@@ -645,20 +645,20 @@
                           <div class="popup-product-thumb-box">
                             <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab7777" aria-labelledby="ui-id-7" aria-selected="true" aria-expanded="true"> <a href="#tab7777" tabindex="-1" class="ui-tabs-anchor" id="ui-id-7">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="img"> </a> </li>
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab8888" aria-labelledby="ui-id-8" aria-selected="false" aria-expanded="false"> <a href="#tab8888" tabindex="-1" class="ui-tabs-anchor" id="ui-id-8"> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="img"> </a> </li>
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab9999" aria-labelledby="ui-id-9" aria-selected="false" aria-expanded="false"> <a href="#tab9999" tabindex="-1" class="ui-tabs-anchor" id="ui-id-9"> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img4.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab8888" aria-labelledby="ui-id-8" aria-selected="false" aria-expanded="false"> <a href="#tab8888" tabindex="-1" class="ui-tabs-anchor" id="ui-id-8"> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab9999" aria-labelledby="ui-id-9" aria-selected="false" aria-expanded="false"> <a href="#tab9999" tabindex="-1" class="ui-tabs-anchor" id="ui-id-9"> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="img"> </a> </li>
                             </ul>
                           </div>
                           <div class="popup-product-main-image-box">
                             <div id="tab7777" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-7" role="tabpanel" aria-hidden="false">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img4.jpg" alt="img"> </div>
                             </div>
                             <div id="tab8888" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-8" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="img"> </div>
                             </div>
                             <div id="tab9999" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-9" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="img"> </div>
                             </div> <button class="prev" tabindex="-1"> <i class="flaticon-back"></i>
                           </button> <button class="next" tabindex="-1"> <i class="flaticon-next"></i>
                           </button>
@@ -689,9 +689,9 @@
                           </button>
                           </div>
                         </div>
-                        <div class="payment-method"> <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_1.png" alt=""> </a>
-                          <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_3.png" alt=""> </a>
-                          <a href="#0" tabindex="-1"> <img src="http://localhost:5173/src/assets/images/payment_method/method_4.png" alt=""> </a> </div>
+                        <div class="payment-method"> <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a>
+                          <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                          <a href="#0" tabindex="-1"> <img src="vue_front/assets/images/payment_method/method_4.png" alt=""> </a> </div>
                       </div>
                     </div>
                   </div>
@@ -706,13 +706,13 @@
                 </div>
               </div>
               <div class="products-grid-one__thumb-box">
-                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="http://localhost:5173/src/assets/images/shop/products-img4.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> blue </span> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="vue_front/assets/images/shop/products-img4.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> blue </span> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="Alt"> </p>
               </div>
             </div><div class="products-grid-one slick-slide slick-current slick-active" style="width: 204px;" data-slick-index="3" aria-hidden="false" tabindex="0">
               <div class="products-grid-one__product-image">
                 <div class="products-grid-one__badge-box"> <span class="bg_base badge new ">New</span>
-                </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="0"> <img class="products-grid-one__hover-img now-main" src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="Alt"> </a>
+                </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="0"> <img class="products-grid-one__hover-img now-main" src="vue_front/assets/images/shop/products-img6.jpg" alt="Alt"> </a>
                 <div class="products-grid__usefull-links">
                   <ul>
                     <li><a href="wishlist.html" tabindex="0"> <i class="flaticon-heart"> </i> <span>
@@ -731,20 +731,20 @@
                         <div class="tabs ui-tabs ui-corner-all ui-widget ui-widget-content">
                           <div class="popup-product-thumb-box">
                             <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab77777" aria-labelledby="ui-id-10" aria-selected="true" aria-expanded="true"> <a href="#tab77777" tabindex="0" class="ui-tabs-anchor" id="ui-id-10"> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="img"> </a> </li>
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab88888" aria-labelledby="ui-id-11" aria-selected="false" aria-expanded="false"> <a href="#tab88888" tabindex="0" class="ui-tabs-anchor" id="ui-id-11"> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="img"> </a> </li>
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab99999" aria-labelledby="ui-id-12" aria-selected="false" aria-expanded="false"> <a href="#tab99999" tabindex="0" class="ui-tabs-anchor" id="ui-id-12"> <img src="http://localhost:5173/src/assets/images/shop/products-img7.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tab77777" aria-labelledby="ui-id-10" aria-selected="true" aria-expanded="true"> <a href="#tab77777" tabindex="0" class="ui-tabs-anchor" id="ui-id-10"> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab88888" aria-labelledby="ui-id-11" aria-selected="false" aria-expanded="false"> <a href="#tab88888" tabindex="0" class="ui-tabs-anchor" id="ui-id-11"> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="tab99999" aria-labelledby="ui-id-12" aria-selected="false" aria-expanded="false"> <a href="#tab99999" tabindex="0" class="ui-tabs-anchor" id="ui-id-12"> <img src="vue_front/assets/images/shop/products-img7.jpg" alt="img"> </a> </li>
                             </ul>
                           </div>
                           <div class="popup-product-main-image-box">
                             <div id="tab77777" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-10" role="tabpanel" aria-hidden="false">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="img"> </div>
                             </div>
                             <div id="tab88888" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-11" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="img"> </div>
                             </div>
                             <div id="tab99999" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-12" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img7.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img7.jpg" alt="img"> </div>
                             </div> <button class="prev" tabindex="0"> <i class="flaticon-back"></i>
                           </button> <button class="next" tabindex="0"> <i class="flaticon-next"></i>
                           </button>
@@ -775,9 +775,9 @@
                           </button>
                           </div>
                         </div>
-                        <div class="payment-method"> <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_1.png" alt=""> </a>
-                          <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_3.png" alt=""> </a>
-                          <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_4.png" alt=""> </a> </div>
+                        <div class="payment-method"> <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a>
+                          <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                          <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_4.png" alt=""> </a> </div>
                       </div>
                     </div>
                   </div>
@@ -792,13 +792,13 @@
                 </div>
               </div>
               <div class="products-grid-one__thumb-box">
-                <p class="products-grid-one__product-varient"> <span class="color"> blue </span> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="http://localhost:5173/src/assets/images/shop/products-img5.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> blue </span> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="vue_front/assets/images/shop/products-img5.jpg" alt="Alt"> </p>
               </div>
             </div><div class="products-grid-one slick-slide slick-active" style="width: 204px;" data-slick-index="4" aria-hidden="false" tabindex="0">
               <div class="products-grid-one__product-image">
                 <div class="products-grid-one__badge-box"> <span class="bg_base badge new ">New</span>
-                </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="0"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="http://localhost:5173/src/assets/images/shop/products-img2.jpg" alt="Alt"> </a>
+                </div> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="0"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="vue_front/assets/images/shop/products-img6.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="vue_front/assets/images/shop/products-img2.jpg" alt="Alt"> </a>
                 <div class="products-grid__usefull-links">
                   <ul>
                     <li><a href="wishlist.html" tabindex="0"> <i class="flaticon-heart"> </i> <span>
@@ -818,22 +818,22 @@
                           <div class="popup-product-thumb-box">
                             <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="stab1" aria-labelledby="ui-id-13" aria-selected="true" aria-expanded="true"> <a href="#stab1" tabindex="0" class="ui-tabs-anchor" id="ui-id-13">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img1.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img1.jpg" alt="img"> </a> </li>
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="stab2" aria-labelledby="ui-id-14" aria-selected="false" aria-expanded="false"> <a href="#stab2" tabindex="0" class="ui-tabs-anchor" id="ui-id-14">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img2.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img2.jpg" alt="img"> </a> </li>
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="stab3" aria-labelledby="ui-id-15" aria-selected="false" aria-expanded="false"> <a href="#stab3" tabindex="0" class="ui-tabs-anchor" id="ui-id-15">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img3.jpg" alt="img"> </a> </li>
                             </ul>
                           </div>
                           <div class="popup-product-main-image-box">
                             <div id="stab1" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-13" role="tabpanel" aria-hidden="false">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img1.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img1.jpg" alt="img"> </div>
                             </div>
                             <div id="stab2" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-14" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img2.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img2.jpg" alt="img"> </div>
                             </div>
                             <div id="stab3" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-15" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img3.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img3.jpg" alt="img"> </div>
                             </div> <button class="prev" tabindex="0"> <i class="flaticon-back"></i>
                           </button> <button class="next" tabindex="0"> <i class="flaticon-next"></i>
                           </button>
@@ -864,9 +864,9 @@
                           </button>
                           </div>
                         </div>
-                        <div class="payment-method"> <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_1.png" alt=""> </a>
-                          <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_3.png" alt=""> </a>
-                          <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_4.png" alt=""> </a> </div>
+                        <div class="payment-method"> <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a>
+                          <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                          <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_4.png" alt=""> </a> </div>
                       </div>
                     </div>
                   </div>
@@ -881,12 +881,12 @@
                 </div>
               </div>
               <div class="products-grid-one__thumb-box">
-                <p class="products-grid-one__product-varient"> <span class="color"> Blue </span> <img src="http://localhost:5173/src/assets/images/shop/products-img6.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="http://localhost:5173/src/assets/images/shop/products-img7.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> green </span> <img src="http://localhost:5173/src/assets/images/shop/products-img8.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Blue </span> <img src="vue_front/assets/images/shop/products-img6.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Yellow </span> <img src="vue_front/assets/images/shop/products-img7.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> green </span> <img src="vue_front/assets/images/shop/products-img8.jpg" alt="Alt"> </p>
               </div>
             </div><div class="products-grid-one slick-slide slick-active" style="width: 204px;" data-slick-index="5" aria-hidden="false" tabindex="0">
-              <div class="products-grid-one__product-image"> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="0"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="http://localhost:5173/src/assets/images/shop/products-img12.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="http://localhost:5173/src/assets/images/shop/products-img11.jpg" alt="Alt"> </a>
+              <div class="products-grid-one__product-image"> <a href="shop-details-1.html" class="d-block products-grid__image_holder" tabindex="0"> <img class="products-grid-one__mainimage products-grid-one__first-img" src="vue_front/assets/images/shop/products-img12.jpg" alt="Alt"> <img class="products-grid-one__hover-img" src="vue_front/assets/images/shop/products-img11.jpg" alt="Alt"> </a>
                 <div class="products-grid__usefull-links">
                   <ul>
                     <li><a href="wishlist.html" tabindex="0"> <i class="flaticon-heart"> </i> <span>
@@ -906,20 +906,20 @@
                           <div class="popup-product-thumb-box">
                             <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
                               <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="ttab111" aria-labelledby="ui-id-16" aria-selected="true" aria-expanded="true"> <a href="#ttab111" tabindex="0" class="ui-tabs-anchor" id="ui-id-16">
-                                <img src="http://localhost:5173/src/assets/images/shop/products-img9.jpg" alt="img"> </a> </li>
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="ttab222" aria-labelledby="ui-id-17" aria-selected="false" aria-expanded="false"> <a href="#ttab222" tabindex="0" class="ui-tabs-anchor" id="ui-id-17"> <img src="http://localhost:5173/src/assets/images/shop/products-img10.jpg" alt="img"> </a> </li>
-                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="ttab333" aria-labelledby="ui-id-18" aria-selected="false" aria-expanded="false"> <a href="#ttab333" tabindex="0" class="ui-tabs-anchor" id="ui-id-18"> <img src="http://localhost:5173/src/assets/images/shop/products-img11.jpg" alt="img"> </a> </li>
+                                <img src="vue_front/assets/images/shop/products-img9.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="ttab222" aria-labelledby="ui-id-17" aria-selected="false" aria-expanded="false"> <a href="#ttab222" tabindex="0" class="ui-tabs-anchor" id="ui-id-17"> <img src="vue_front/assets/images/shop/products-img10.jpg" alt="img"> </a> </li>
+                              <li class="tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab" role="tab" tabindex="-1" aria-controls="ttab333" aria-labelledby="ui-id-18" aria-selected="false" aria-expanded="false"> <a href="#ttab333" tabindex="0" class="ui-tabs-anchor" id="ui-id-18"> <img src="vue_front/assets/images/shop/products-img11.jpg" alt="img"> </a> </li>
                             </ul>
                           </div>
                           <div class="popup-product-main-image-box">
                             <div id="ttab111" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-16" role="tabpanel" aria-hidden="false">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img9.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img9.jpg" alt="img"> </div>
                             </div>
                             <div id="ttab222" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-17" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img10.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img10.jpg" alt="img"> </div>
                             </div>
                             <div id="ttab333" class="tab-item popup-product-image ui-tabs-panel ui-corner-bottom ui-widget-content" aria-labelledby="ui-id-18" role="tabpanel" style="display: none;" aria-hidden="true">
-                              <div class="popup-product-single-image"> <img src="http://localhost:5173/src/assets/images/shop/products-img11.jpg" alt="img"> </div>
+                              <div class="popup-product-single-image"> <img src="vue_front/assets/images/shop/products-img11.jpg" alt="img"> </div>
                             </div> <button class="prev" tabindex="0"> <i class="flaticon-back"></i>
                           </button> <button class="next" tabindex="0"> <i class="flaticon-next"></i>
                           </button>
@@ -950,9 +950,9 @@
                           </button>
                           </div>
                         </div>
-                        <div class="payment-method"> <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_1.png" alt=""> </a>
-                          <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_3.png" alt=""> </a>
-                          <a href="#0" tabindex="0"> <img src="http://localhost:5173/src/assets/images/payment_method/method_4.png" alt=""> </a> </div>
+                        <div class="payment-method"> <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_1.png" alt=""> </a>
+                          <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_2.png" alt=""> </a> <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_3.png" alt=""> </a>
+                          <a href="#0" tabindex="0"> <img src="vue_front/assets/images/payment_method/method_4.png" alt=""> </a> </div>
                       </div>
                     </div>
                   </div>
@@ -967,9 +967,9 @@
                 </div>
               </div>
               <div class="products-grid-one__thumb-box">
-                <p class="products-grid-one__product-varient"> <span class="color"> Blue </span> <img src="http://localhost:5173/src/assets/images/shop/products-img12.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> Green </span> <img src="http://localhost:5173/src/assets/images/shop/products-img11.jpg" alt="Alt"> </p>
-                <p class="products-grid-one__product-varient"> <span class="color"> Black </span> <img src="http://localhost:5173/src/assets/images/shop/products-img10.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Blue </span> <img src="vue_front/assets/images/shop/products-img12.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Green </span> <img src="vue_front/assets/images/shop/products-img11.jpg" alt="Alt"> </p>
+                <p class="products-grid-one__product-varient"> <span class="color"> Black </span> <img src="vue_front/assets/images/shop/products-img10.jpg" alt="Alt"> </p>
               </div>
             </div></div></div><button class="arrow-next slick-arrow slick-disabled" style="" aria-disabled="true"><i class="flaticon-next"></i></button></div>
         </div>
@@ -981,6 +981,7 @@
 <script>
 export default {
   mounted() {
+
     this.getProduct()
   },
   data() {
@@ -1015,7 +1016,7 @@ export default {
 
     getProduct() {
       console.log(this.$route.params.id)
-      this.axios.get(`/api/products/${this.$route.params.id}`)
+      this.axios.get(`http://127.0.0.1:8000/api/products/${this.$route.params.id}`)
           .then(res => {
             this.product = res.data.data;
             console.log(res);
@@ -1029,7 +1030,6 @@ export default {
     },
   }
 }
-
 </script>
 
 

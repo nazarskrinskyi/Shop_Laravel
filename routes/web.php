@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -14,9 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::group(['prefix' => 'admin', "namespace" => 'App\Http\Controllers\Admin',], function () {
     Route::get('/', AdminController::class)->name('admin.index');
@@ -72,6 +70,13 @@ Route::group(['prefix' => 'admin', "namespace" => 'App\Http\Controllers\Admin',]
     });
 
 });
+
+Auth::routes();
+
+Route::get('/', \App\Http\Controllers\Client\MainController::class);
+Route::post('/checkout', \App\Http\Controllers\Order\IndexController::class)->name('checkout');
+
+
 
 
 

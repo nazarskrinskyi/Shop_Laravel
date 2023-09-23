@@ -49,7 +49,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "newsLetter-popup__thumb imgenews"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-1.jpg",
+  src: "vue_front/assets/images/home-three/products-1.jpg",
   alt: "newsletter"
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-lg-7 col-md-8 col-sm-10"
@@ -61,7 +61,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "index.html",
   "class": "logo"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "http://localhost:5173/src/assets/images/logo/logo.png",
+  src: "vue_front/assets/images/logo/logo.png",
   alt: "logo"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Join "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "with us.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Subscribe to receive news from Karte In a free hour ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
   action: "#0",
@@ -114,7 +114,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "contant-box position-relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "bg-img hundread-vh",
-  src: "src/assets/images/home-three/home-3-bg-2.jpg",
+  src: "vue_front/assets/images/home-three/home-3-bg-2.jpg",
   alt: "image"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "content-holder p-0 absolute-content"
@@ -169,7 +169,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "contant-box position-relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "bg-img hundread-vh",
-  src: "src/assets/images/home-three/home-3-bg.jpg",
+  src: "vue_front/assets/images/home-three/home-3-bg.jpg",
   alt: "image"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "content-holder p-0 absolute-content"
@@ -224,7 +224,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "contant-box position-relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "bg-img hundread-vh",
-  src: "src/assets/images/home-three/home-3-bg-2.jpg",
+  src: "vue_front/assets/images/home-three/home-3-bg-2.jpg",
   alt: "image"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "content-holder p-0 absolute-content"
@@ -277,7 +277,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "contant-box position-relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "bg-img hundread-vh",
-  src: "src/assets/images/home-three/home-3-bg.jpg",
+  src: "vue_front/assets/images/home-three/home-3-bg.jpg",
   alt: "image"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "content-holder p-0 absolute-content"
@@ -330,7 +330,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "contant-box position-relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "bg-img hundread-vh",
-  src: "src/assets/images/home-three/home-3-bg-2.jpg",
+  src: "vue_front/assets/images/home-three/home-3-bg-2.jpg",
   alt: "image"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "content-holder p-0 absolute-content"
@@ -396,7 +396,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "aria-label": "2 of 2",
   tabindex: "-1"
 }, "2")])])])], -1 /* HOISTED */);
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"catagory4 pt-60 pb-60\"><div class=\"container\"><div class=\"row mt--30\"><div class=\"col-lg-6 h-100 mt-30\"><a href=\"shop-grid.html\" class=\"catagory-single one home3cat\"><img src=\"src/assets/images/home-three/cat-1.png\" alt=\"#\" class=\"background-img bg-img imgone\"><div class=\"content\"><div class=\"row w-100 h-100 align-items-center\"><div class=\"col-xl-7 col-md-9\"><h5 class=\"wow animated fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"> Shop &amp; Save</h5><h3 class=\"wow animated fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"> Exclusive Women Shoes </h3><span class=\"link wow animated fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"> explore now</span></div></div></div></a></div><div class=\"col-lg-6\"><div class=\"row\"><div class=\"co-12 mt-30\"><a href=\"shop-grid.html\" class=\"catagory-single home3cat\"><img src=\"src/assets/images/home-three/catbg-3.png\" alt=\"\" class=\"background-img bg-img\"><div class=\"content\"><div class=\"row w-100 h-100 align-items-center\"><div class=\"col-12\"><h5 class=\"wow animated red fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"> 20% Off </h5><h3 class=\"wow animated fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"> Men Sneakers </h3><span class=\"link wow animated fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"> explore now</span></div></div></div></a></div><div class=\"col-12 mt-30\"><a href=\"shop-grid.html\" class=\"catagory-single home3cat\"><img src=\"src/assets/images/home-three/catbg-2.png\" alt=\"\" class=\"background-img bg-img\"><div class=\"content\"><div class=\"row w-100 h-100 align-items-center\"><div class=\"col-xxl-6 col-lg-9\"><h5 class=\"wow animated fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"> New Products </h5><h3 class=\"wow animated fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"> Women Sneakers </h3><span class=\"link wow animated fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"> explore now</span></div></div></div></a></div></div></div></div></div></div>", 1);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"catagory4 pt-60 pb-60\"><div class=\"container\"><div class=\"row mt--30\"><div class=\"col-lg-6 h-100 mt-30\"><a href=\"shop-grid.html\" class=\"catagory-single one home3cat\"><img src=\"vue_front/assets/images/home-three/cat-1.png\" alt=\"#\" class=\"background-img bg-img imgone\"><div class=\"content\"><div class=\"row w-100 h-100 align-items-center\"><div class=\"col-xl-7 col-md-9\"><h5 class=\"wow animated fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"> Shop &amp; Save</h5><h3 class=\"wow animated fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"> Exclusive Women Shoes </h3><span class=\"link wow animated fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"> explore now</span></div></div></div></a></div><div class=\"col-lg-6\"><div class=\"row\"><div class=\"co-12 mt-30\"><a href=\"shop-grid.html\" class=\"catagory-single home3cat\"><img src=\"vue_front/assets/images/home-three/catbg-3.png\" alt=\"\" class=\"background-img bg-img\"><div class=\"content\"><div class=\"row w-100 h-100 align-items-center\"><div class=\"col-12\"><h5 class=\"wow animated red fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"> 20% Off </h5><h3 class=\"wow animated fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"> Men Sneakers </h3><span class=\"link wow animated fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"> explore now</span></div></div></div></a></div><div class=\"col-12 mt-30\"><a href=\"shop-grid.html\" class=\"catagory-single home3cat\"><img src=\"vue_front/assets/images/home-three/catbg-2.png\" alt=\"\" class=\"background-img bg-img\"><div class=\"content\"><div class=\"row w-100 h-100 align-items-center\"><div class=\"col-xxl-6 col-lg-9\"><h5 class=\"wow animated fadeInUp\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"> New Products </h5><h3 class=\"wow animated fadeInUp\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"> Women Sneakers </h3><span class=\"link wow animated fadeInUp\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"> explore now</span></div></div></div></a></div></div></div></div></div></div>", 1);
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
   "class": "categories-tab pt-60 pb-60 wow fadeInUp",
   style: {
@@ -493,11 +493,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-1.jpg",
+  src: "vue_front/assets/images/home-three/products-1.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-hover-1.png",
+  src: "vue_front/assets/images/home-three/products-hover-1.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -549,7 +549,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-2.jpg",
+  src: "vue_front/assets/images/home-three/products-2.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -594,11 +594,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-3.jpg",
+  src: "vue_front/assets/images/home-three/products-3.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-hover-3.png",
+  src: "vue_front/assets/images/home-three/products-hover-3.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -648,7 +648,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-4.jpg",
+  src: "vue_front/assets/images/home-three/products-4.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -693,7 +693,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-5.png",
+  src: "vue_front/assets/images/home-three/products-5.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -742,7 +742,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/products-6.png",
+  src: "vue_front/assets/images/home-three/products-6.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -819,11 +819,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-1.jpg",
+  src: "vue_front/assets/images/home-three/productss2-1.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-hover-1.png",
+  src: "vue_front/assets/images/home-three/productss2-hover-1.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -875,7 +875,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-2.jpg",
+  src: "vue_front/assets/images/home-three/productss2-2.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -920,11 +920,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-3.jpg",
+  src: "vue_front/assets/images/home-three/productss2-3.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-hover-3.png",
+  src: "vue_front/assets/images/home-three/productss2-hover-3.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -974,7 +974,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-4.jpg",
+  src: "vue_front/assets/images/home-three/productss2-4.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -1019,7 +1019,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-5.jpg",
+  src: "vue_front/assets/images/home-three/productss2-5.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -1068,7 +1068,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-2.jpg",
+  src: "vue_front/assets/images/home-three/productss2-2.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -1145,11 +1145,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-1.jpg",
+  src: "vue_front/assets/images/home-three/productss3-1.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-hover-1.jpg",
+  src: "vue_front/assets/images/home-three/productss3-hover-1.jpg",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -1201,7 +1201,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-2.jpg",
+  src: "vue_front/assets/images/home-three/productss3-2.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -1246,11 +1246,11 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-3.jpg",
+  src: "vue_front/assets/images/home-three/productss3-3.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-hover-3.png",
+  src: "vue_front/assets/images/home-three/productss3-hover-3.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -1300,7 +1300,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-4.jpg",
+  src: "vue_front/assets/images/home-three/productss3-4.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -1345,7 +1345,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-5.png",
+  src: "vue_front/assets/images/home-three/productss3-5.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -1394,7 +1394,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "d-block",
   tabindex: "0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-3.jpg",
+  src: "vue_front/assets/images/home-three/productss3-3.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -1442,7 +1442,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "spinner"
 })])])])])])], -1 /* HOISTED */);
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"video-two mt-60 mb-60 overflow-hidden\"><div class=\"auto-container container\"><div class=\"row g-0\"><!--Start Video Two Img--><div class=\"col-xl-6 wow fadeInLeft animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"video-main-box position-relative\"><div class=\"video-two__img\" style=\"background-image:url(src/assets/images/home-three/video-v2-img1.jpg);\"><div class=\"icon wow zoomIn animated animated\" data-wow-delay=\"300ms\" data-wow-duration=\"1500ms\" style=\"visibility:hidden;animation-duration:1500ms;animation-delay:300ms;animation-name:none;\"><a class=\"video-popup\" title=\"Video Gallery\" href=\"\"><i class=\"flaticon-play\"></i></a></div></div></div></div><!--End Video Two Img--><!--Start Video Two Content--><div class=\"col-xl-6\"><div class=\"video-two__content\"><div class=\"video-two__content-inner\"><div class=\"tagline wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><span>Hurry up, the deal will end soon</span></div><h2 class=\"wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\">Best Deal Today</h2><div class=\"text wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><p>Credibly fabricate out of-the-boxn twice relationshi after empowered alignments. Completely band productivate client-based sources before enabled best practices. Dramatically network maout-of-the-box best practices whereas effective intellectual capital.</p></div><div class=\"btn-box wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><a href=\"shop-grid.html\" class=\"btn--primary style2\">Discover More</a></div></div></div></div><!--End Video Two Content--></div></div></section>", 1);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"video-two mt-60 mb-60 overflow-hidden\"><div class=\"auto-container container\"><div class=\"row g-0\"><!--Start Video Two Img--><div class=\"col-xl-6 wow fadeInLeft animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"video-main-box position-relative\"><div class=\"video-two__img\" style=\"background-image:url(vue_front/assets/images/home-three/video-v2-img1.jpg);\"><div class=\"icon wow zoomIn animated animated\" data-wow-delay=\"300ms\" data-wow-duration=\"1500ms\" style=\"visibility:hidden;animation-duration:1500ms;animation-delay:300ms;animation-name:none;\"><a class=\"video-popup\" title=\"Video Gallery\" href=\"\"><i class=\"flaticon-play\"></i></a></div></div></div></div><!--End Video Two Img--><!--Start Video Two Content--><div class=\"col-xl-6\"><div class=\"video-two__content\"><div class=\"video-two__content-inner\"><div class=\"tagline wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><span>Hurry up, the deal will end soon</span></div><h2 class=\"wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\">Best Deal Today</h2><div class=\"text wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><p>Credibly fabricate out of-the-boxn twice relationshi after empowered alignments. Completely band productivate client-based sources before enabled best practices. Dramatically network maout-of-the-box best practices whereas effective intellectual capital.</p></div><div class=\"btn-box wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><a href=\"shop-grid.html\" class=\"btn--primary style2\">Discover More</a></div></div></div></div><!--End Video Two Content--></div></div></section>", 1);
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
   "class": "products-three pt-60 pb-60 overflow-hidden"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -1471,11 +1471,11 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-1.jpg",
+  src: "vue_front/assets/images/home-three/productss2-1.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-hover-1.png",
+  src: "vue_front/assets/images/home-three/productss2-hover-1.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -1532,7 +1532,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-1"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -1548,7 +1548,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-2"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -1564,7 +1564,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-3"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -1577,7 +1577,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb2",
@@ -1591,7 +1591,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb3",
@@ -1605,7 +1605,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -1677,22 +1677,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -1710,11 +1710,11 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-hover-2.png",
+  src: "vue_front/assets/images/home-three/productss2-hover-2.png",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-2.jpg",
+  src: "vue_front/assets/images/home-three/productss2-2.jpg",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -1771,7 +1771,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -1787,7 +1787,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-5"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -1803,7 +1803,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img8.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img8.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -1816,7 +1816,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb22",
@@ -1830,7 +1830,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb33",
@@ -1844,7 +1844,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img8.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img8.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -1916,22 +1916,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -1949,7 +1949,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-3.jpg",
+  src: "vue_front/assets/images/home-three/productss2-3.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -2001,7 +2001,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-7"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2017,7 +2017,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img8.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img8.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2033,7 +2033,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-9"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -2046,7 +2046,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb222",
@@ -2060,7 +2060,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img8.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img8.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb333",
@@ -2074,7 +2074,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -2146,22 +2146,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -2179,7 +2179,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-4.jpg",
+  src: "vue_front/assets/images/home-three/productss2-4.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -2235,7 +2235,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-10"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2251,7 +2251,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-11"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2267,7 +2267,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-12"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img10.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img10.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -2280,7 +2280,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img8.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img8.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb2222",
@@ -2294,7 +2294,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabb3333",
@@ -2308,7 +2308,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img10.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img10.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -2380,22 +2380,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -2413,11 +2413,11 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-5.jpg",
+  src: "vue_front/assets/images/home-three/productss2-5.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-hover-5.png",
+  src: "vue_front/assets/images/home-three/productss2-hover-5.png",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
@@ -2470,7 +2470,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-13"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2486,7 +2486,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-14"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2502,7 +2502,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-15"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img10.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img10.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -2515,7 +2515,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img8.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img8.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabc2",
@@ -2529,7 +2529,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img9.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img9.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tabc3",
@@ -2543,7 +2543,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img10.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img10.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -2615,22 +2615,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -2648,11 +2648,11 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-1.jpg",
+  src: "vue_front/assets/images/home-three/productss3-1.jpg",
   "class": "first-img",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-hover-1.jpg",
+  src: "vue_front/assets/images/home-three/productss3-hover-1.jpg",
   alt: "",
   "class": "hover-img"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -2711,7 +2711,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-16"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img1.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img1.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2727,7 +2727,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-17"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img2.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img2.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2743,7 +2743,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-18"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img3.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img3.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -2756,7 +2756,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img1.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img1.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab2",
@@ -2770,7 +2770,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img2.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img2.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab3",
@@ -2784,7 +2784,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img3.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img3.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -2856,22 +2856,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -2889,7 +2889,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-2.jpg",
+  src: "vue_front/assets/images/home-three/productss3-2.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -2941,7 +2941,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-19"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img1.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img1.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2957,7 +2957,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-20"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img2.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img2.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -2973,7 +2973,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-21"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img3.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img3.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -2986,7 +2986,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img1.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img1.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab22",
@@ -3000,7 +3000,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img2.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img2.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab33",
@@ -3014,7 +3014,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img3.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img3.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -3086,22 +3086,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -3119,7 +3119,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-3.jpg",
+  src: "vue_front/assets/images/home-three/productss3-3.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -3175,7 +3175,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-22"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img3.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img3.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -3191,7 +3191,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-23"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img4.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img4.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -3207,7 +3207,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-24"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -3220,7 +3220,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img3.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img3.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab222",
@@ -3234,7 +3234,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img4.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img4.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab333",
@@ -3248,7 +3248,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -3320,22 +3320,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -3353,7 +3353,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss3-4.jpg",
+  src: "vue_front/assets/images/home-three/productss3-4.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "cart.html",
@@ -3405,7 +3405,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-25"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img4.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img4.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -3421,7 +3421,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-26"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -3437,7 +3437,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-27"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -3450,7 +3450,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img4.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img4.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab2222",
@@ -3464,7 +3464,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab3333",
@@ -3478,7 +3478,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -3550,22 +3550,22 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
@@ -3583,7 +3583,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   href: "shop-details-3.html",
   "class": "d-block"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/home-three/productss2-1.jpg",
+  src: "vue_front/assets/images/home-three/productss2-1.jpg",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-grid-one__badge-box"
@@ -3639,7 +3639,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-28"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -3655,7 +3655,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-29"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
   "class": "tab-nav popup-product-thumb ui-tabs-tab ui-corner-top ui-state-default ui-tab",
@@ -3671,7 +3671,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "ui-tabs-anchor",
   id: "ui-id-30"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-main-image-box"
@@ -3684,7 +3684,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img5.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img5.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab22222",
@@ -3698,7 +3698,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img6.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img6.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "tab33333",
@@ -3712,7 +3712,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "popup-product-single-image"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/shop/products-v6-img7.jpg",
+  src: "vue_front/assets/images/shop/products-v6-img7.jpg",
   alt: ""
 })])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "prev"
@@ -3784,36 +3784,36 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_1.png",
+  src: "vue_front/assets/images/payment_method/method_1.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_2.png",
+  src: "vue_front/assets/images/payment_method/method_2.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_3.png",
+  src: "vue_front/assets/images/payment_method/method_3.png",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "#0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "src/assets/images/payment_method/method_4.png",
+  src: "vue_front/assets/images/payment_method/method_4.png",
   alt: ""
 })])])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "products-three-single-content text-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Men Shoes"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "shop-details-3.html"
 }, "High Quality Sneakers")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "$159.00")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Products Six Single")])])])])])], -1 /* HOISTED */);
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"product-slider-three position-relative pt-60 pb-60 overflow-hidden\"><div class=\"container\"><div class=\"section-header style3 text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><h2>Bestseller Shoes</h2><p> Weekend Top Brands </p></div><div class=\"row wow fadeInUp mt-30 animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"col-xl-12\"><div class=\"product-slider-main position-relative slick-initialized slick-slider\"><button class=\"arrow-back slick-arrow\" style=\"\"><i class=\"flaticon-back\"></i></button><div class=\"slick-list draggable\"><div class=\"slick-track\" style=\"opacity:1;width:9072px;transform:translate3d(-2592px, 0px, 0px);\"><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-current slick-active\" data-slick-index=\"1\" aria-hidden=\"false\" style=\"width:1296px;\" tabindex=\"0\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"0\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"3\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"4\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"5\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"src/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div></div></div><button class=\"arrow-next slick-arrow\" style=\"\"><i class=\"flaticon-next\"></i></button></div></div></div></div></section>", 1);
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"products-cetagory-three pt-60 overflow-hidden\"><div class=\"auto-container container\"><div class=\"products-cetagory-three__inner\"><div class=\"row justify-content-center\"><!--Start Products Seven Single--><div class=\"col-md-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"products-cetagory-three__single\"><div class=\"products-cetagory-three__single-img height-400\" style=\"background-image:url(src/assets/images/shop/products-v7-img1.jpg);\"></div><div class=\"products-cetagory-three__single-content\"><span>Puma Hot Deal</span><h2>2022 Shoes</h2><div class=\"text\"><p>Enable interoperable channels via turnkey <br> market models...</p></div><div class=\"btn-box\"><a href=\"shop-grid-left-sidebar.html\">Explore Items</a></div></div></div></div><!--End Products Seven Single--><!--Start Products Seven Single--><div class=\"col-xxl-3 col-md-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"products-cetagory-three__single height-400 style2\"><div class=\"inner h-100\"><h3>Take A Chance</h3><h2>80 <span>% <br> OFF</span></h2><div class=\"btn-box\"><a href=\"cart.html\" class=\"button\">Code: LOVEBITE</a></div><p>Don&#39;t Miss Out: Coupon expires soon.</p></div></div></div><!--End Products Seven Single--><!--Start Products Seven Single--><div class=\"col-xxl-3 col-md-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"products-cetagory-three__single style3\"><div class=\"products-cetagory-three__single-img height-400\" style=\"background-image:url(src/assets/images/shop/products-v7-img2.jpg);\"></div><div class=\"products-cetagory-three__single-content\"><span>Puma Hot Deal</span><h2>2022 Shoes</h2><div class=\"text\"><p>Enable interoperable channels via <br> turnkey market models...</p></div><div class=\"btn-box\"><a href=\"shop-list-right-sidebar.html\">Explore Items</a></div></div></div></div><!--End Products Seven Single--></div></div></div></section>", 1);
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"newsLetter-one border-0 style-two pt-60 pb-60 overflow-hidden\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 col-md-6\"><div class=\"newsLetter-one__content-box d-flex align-items-center justify-content-md-start justify-content-center wow fadeInUp animated\" data-wow-delay=\"0.1s\" style=\"visibility:hidden;animation-delay:0.1s;animation-name:none;\"><div class=\"thumb\"><img src=\"src/assets/images/home-two/envalop.png\" alt=\"\"></div><h3 class=\"t36\"><span>Sign Up For </span> Newsletter </h3></div></div><div class=\"col-lg-4 col-md-6\"><div class=\"newsLetter-one__content-box d-flex align-items-center justify-content-md-start justify-content-center wow fadeInUp animated\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"><h6 class=\"text-md-start text-center\"> Subscribe to ours weekly newsletter for all the latest updates </h6></div></div><div class=\"col-lg-4 col-md-6\"><div class=\"newsLetter-one__content-box three d-flex align-items-center justify-content-md-start justify-content-center wow fadeInUp animated\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"><form action=\"#0\" class=\"form\"><div class=\"newsLetter-one__subscribe-box\"><input type=\"email\" placeholder=\"Email address\" name=\"email\"> <button type=\"submit\" class=\"subscrib-btn\"> Subscribe </button></div></form></div></div></div></div></section>", 1);
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"categories-three overflow-hidden\"><div class=\"auto-container container\"><div class=\"row\"><div class=\"categories-three__inner pt-120 pb-120\"><div class=\"row align-items-center justify-content-xl-start justify-content-center\"><div class=\"col-xl-4 col-md-7\"><div class=\"categories-three__content text-xl-start text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"sec-title-style2 style3\"><h2>Shop by Categories</h2></div><p>Continually enhance long-term don high impact niche markets whereas user centric niche markets. actualize backward compatible...</p><div class=\"btn-box\"><a href=\"shop-grid-left-sidebar.html\" class=\"btn--primary style2\">Discover More</a></div></div></div><div class=\"col-xl-8\"><div class=\"row justify-content-center\"><div class=\"col-lg-4 col-sm-6\"><div class=\"categories-three__list-item mt-30 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"categories-three__list-item-inner\"><a href=\"shop-grid-right-sidebar.html\" class=\"img-box\"><img src=\"src/assets/images/home-three/categories-v2-img1.jpg\" alt=\"\"><div class=\"text\"><span>369 Items</span></div></a><div class=\"title text-center\"><h4><a href=\"shop-grid-left-sidebar.html\">Sport’s Shoes</a></h4></div></div></div></div><div class=\"col-lg-4 col-sm-6\"><div class=\"categories-three__list-item mt-30 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"categories-three__list-item-inner\"><a href=\"shop-grid-left-sidebar.html\" class=\"img-box\"><img src=\"src/assets/images/home-three/categories-v2-img2.jpg\" alt=\"\"><div class=\"text\"><span>369 Items</span></div></a><div class=\"title text-center\"><h4><a href=\"shop-grid-left-sidebar.html\">Casual Shoes</a></h4></div></div></div></div><div class=\"col-lg-4 col-sm-6\"><div class=\"categories-three__list-item mt-30 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"categories-three__list-item-inner\"><a href=\"shop-grid-left-sidebar.html\" class=\"img-box\"><img src=\"src/assets/images/home-three/categories-v2-img3.jpg\" alt=\"\"><div class=\"text\"><span>369 Items</span></div></a><div class=\"title text-center\"><h4><a href=\"shop-grid-left-sidebar.html\">Office Shoes</a></h4></div></div></div></div></div></div></div></div></div></div></section>", 1);
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"core-features pt-120 mb-60 overflow-hidden\"><div class=\"container auto-container\"><div class=\"row mt--30\"><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"><div class=\"core-features__box d-flex ms-0\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"src/assets/images/icon/f-icon-1.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> Secure Payment </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"><div class=\"core-features__box d-flex\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"src/assets/images/icon/f-icon-2.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> 27/7 Fast Delivery </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"><div class=\"core-features__box d-flex\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"src/assets/images/icon/f-icon-3.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> Return &amp; Refund </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.5s\" style=\"visibility:hidden;animation-delay:0.5s;animation-name:none;\"><div class=\"core-features__box d-flex me-0\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"src/assets/images/icon/f-icon-4.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> Quality Support </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div></div></div></section>", 1);
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"review-one pt-60 pb-60\"><div class=\"container\"><div class=\"row\"><div class=\"col-12\"><div class=\"review-one__section-head text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"title\"><h2>What Client’s Say</h2></div><p>Over 10000 Reviews</p></div></div><div class=\"col-12 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"reviewOneSlider owl-carousel slick-initialized slick-slider\"><button class=\"arrow-back slick-arrow\" style=\"\"><i class=\"flaticon-back\"></i></button><div class=\"slick-list draggable\"><div class=\"slick-track\" style=\"opacity:1;width:4752px;transform:translate3d(-2592px, 0px, 0px);\"><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"-3\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Elaine Hayes</a></h4> <span>UI/UX Designer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"-2\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-3.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Jane Young </a></h4> <span>Web Engineer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Kim Douglas </a></h4> <span>React Developer</span></div></div></div><div class=\"review-one__single-review slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-1.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Ana Fleming </a></h4> <span> Web Developer</span></div></div></div><div class=\"review-one__single-review slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Elaine Hayes</a></h4> <span>UI/UX Designer </span></div></div></div><div class=\"review-one__single-review slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-3.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Jane Young </a></h4> <span>Web Engineer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-current slick-active\" data-slick-index=\"3\" aria-hidden=\"false\" style=\"width:432px;\" tabindex=\"0\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"0\">Kim Douglas </a></h4> <span>React Developer</span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned slick-active\" data-slick-index=\"4\" id=\"\" aria-hidden=\"false\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-1.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"0\">Ana Fleming </a></h4> <span> Web Developer</span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned slick-active\" data-slick-index=\"5\" id=\"\" aria-hidden=\"false\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"0\">Elaine Hayes</a></h4> <span>UI/UX Designer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"6\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-3.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Jane Young </a></h4> <span>Web Engineer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"7\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"src/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Kim Douglas </a></h4> <span>React Developer</span></div></div></div></div></div><button class=\"arrow-next slick-arrow\" style=\"\"><i class=\"flaticon-next\"></i></button></div></div></div></div></section>", 1);
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"blog-three pt-60 pb-120 overflow-hidden\"><div class=\"container\"><div class=\"section-header style3 text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><h2>Latest News </h2><p> Weekend Updates </p></div><div class=\"row justify-content-center\"><!--Start Blog Three Single--><div class=\"col-xl-4 col-lg-4 col-sm-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"blog-three__single mt-30\"><a href=\"blog-single.html\" class=\"blog-three__single-img d-block\"><img src=\"src/assets/images/blog/blog-v3-1.jpg\" alt=\"\"></a><div class=\"blog-three__single-content text-center\"><span>Vendora Style</span><h4><a href=\"blog-single.html\">A Perfect Style With Our Fashion Shoes</a></h4><div class=\"btn-box\"><a href=\"blog-single.html\">Read More</a></div></div></div></div><!--End Blog Three Single--><!--Start Blog Three Single--><div class=\"col-xl-4 col-lg-4 col-sm-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"blog-three__single mt-30\"><a href=\"blog-single.html\" class=\"blog-three__single-img d-block\"><img src=\"src/assets/images/blog/blog-v3-2.jpg\" alt=\"\"></a><div class=\"blog-three__single-content text-center\"><span>Vendora Style</span><h4><a href=\"blog-single.html\">2021-2021 fall-winter men&#39;s shoe trends.</a></h4><div class=\"btn-box\"><a href=\"blog-single.html\">Read More</a></div></div></div></div><!--End Blog Three Single--><!--Start Blog Three Single--><div class=\"col-xl-4 col-lg-4 col-sm-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"blog-three__single mt-30\"><a href=\"blog-single.html\" class=\"blog-three__single-img d-block\"><img src=\"src/assets/images/blog/blog-v3-3.jpg\" alt=\"\"></a><div class=\"blog-three__single-content text-center\"><span>Vendora Style</span><h4><a href=\"blog-single.html\">What men&#39;s shoes will be in fashion in the spring </a></h4><div class=\"btn-box\"><a href=\"blog-single.html\">Read More</a></div></div></div></div><!--End Blog Three Single--></div></div></section>", 1);
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"gallery-two wow fadeInUp animated overflow-hidden\" style=\"visibility:hidden;animation-name:none;\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-xl-12\"><div class=\"gallery-two__slider slick-initialized slick-slider\"><button class=\"arrow-back slick-arrow\" style=\"\"><i class=\"flaticon-back\"></i></button> <div class=\"slick-list draggable\"><div class=\"slick-track\" style=\"opacity:1;width:5664px;transform:translate3d(-3068px, 0px, 0px);\"><a href=\"src/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-6\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img5.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-5\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img5.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img6.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-4\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img6.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-3\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-2\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img1.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img1.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img5.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"4\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img5.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img6.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"5\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img6.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"6\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-current slick-active\" data-slick-index=\"7\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"0\"><img src=\"src/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-active\" data-slick-index=\"8\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"0\"><img src=\"src/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img1.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"9\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img1.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"10\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"11\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"12\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img5.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"13\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img5.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img6.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"14\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img6.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"15\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"16\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"src/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"17\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"src/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a></div></div> <button class=\"arrow-next slick-arrow\" style=\"\"><i class=\"flaticon-next\"></i></button></div></div></div></div></div>", 1);
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"product-slider-three position-relative pt-60 pb-60 overflow-hidden\"><div class=\"container\"><div class=\"section-header style3 text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><h2>Bestseller Shoes</h2><p> Weekend Top Brands </p></div><div class=\"row wow fadeInUp mt-30 animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"col-xl-12\"><div class=\"product-slider-main position-relative slick-initialized slick-slider\"><button class=\"arrow-back slick-arrow\" style=\"\"><i class=\"flaticon-back\"></i></button><div class=\"slick-list draggable\"><div class=\"slick-track\" style=\"opacity:1;width:9072px;transform:translate3d(-2592px, 0px, 0px);\"><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-current slick-active\" data-slick-index=\"1\" aria-hidden=\"false\" style=\"width:1296px;\" tabindex=\"0\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"0\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"3\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"4\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div><div class=\"product-slider__single text-center slick-slide slick-cloned\" data-slick-index=\"5\" id=\"\" aria-hidden=\"true\" style=\"width:1296px;\" tabindex=\"-1\"><div class=\"inner text-center d-flex flex-column justify-content-center align-items-center\"><div class=\"img-box\"><img src=\"vue_front/assets/images/home-three/fimg.png\" alt=\"\"></div><div class=\"content-box mt-4\"><span>On Sale</span><h2>$1499.00</h2><h5>Enjoy 15% off your first order</h5><div class=\"btn-box\"><a href=\"shop-details-3.html\" class=\"btn--primary style2\" tabindex=\"-1\">Select Option</a></div></div></div></div></div></div><button class=\"arrow-next slick-arrow\" style=\"\"><i class=\"flaticon-next\"></i></button></div></div></div></div></section>", 1);
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"products-cetagory-three pt-60 overflow-hidden\"><div class=\"auto-container container\"><div class=\"products-cetagory-three__inner\"><div class=\"row justify-content-center\"><!--Start Products Seven Single--><div class=\"col-md-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"products-cetagory-three__single\"><div class=\"products-cetagory-three__single-img height-400\" style=\"background-image:url(vue_front/assets/images/shop/products-v7-img1.jpg);\"></div><div class=\"products-cetagory-three__single-content\"><span>Puma Hot Deal</span><h2>2022 Shoes</h2><div class=\"text\"><p>Enable interoperable channels via turnkey <br> market models...</p></div><div class=\"btn-box\"><a href=\"shop-grid-left-sidebar.html\">Explore Items</a></div></div></div></div><!--End Products Seven Single--><!--Start Products Seven Single--><div class=\"col-xxl-3 col-md-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"products-cetagory-three__single height-400 style2\"><div class=\"inner h-100\"><h3>Take A Chance</h3><h2>80 <span>% <br> OFF</span></h2><div class=\"btn-box\"><a href=\"cart.html\" class=\"button\">Code: LOVEBITE</a></div><p>Don&#39;t Miss Out: Coupon expires soon.</p></div></div></div><!--End Products Seven Single--><!--Start Products Seven Single--><div class=\"col-xxl-3 col-md-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"products-cetagory-three__single style3\"><div class=\"products-cetagory-three__single-img height-400\" style=\"background-image:url(vue_front/assets/images/shop/products-v7-img2.jpg);\"></div><div class=\"products-cetagory-three__single-content\"><span>Puma Hot Deal</span><h2>2022 Shoes</h2><div class=\"text\"><p>Enable interoperable channels via <br> turnkey market models...</p></div><div class=\"btn-box\"><a href=\"shop-list-right-sidebar.html\">Explore Items</a></div></div></div></div><!--End Products Seven Single--></div></div></div></section>", 1);
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"newsLetter-one border-0 style-two pt-60 pb-60 overflow-hidden\"><div class=\"container\"><div class=\"row\"><div class=\"col-lg-4 col-md-6\"><div class=\"newsLetter-one__content-box d-flex align-items-center justify-content-md-start justify-content-center wow fadeInUp animated\" data-wow-delay=\"0.1s\" style=\"visibility:hidden;animation-delay:0.1s;animation-name:none;\"><div class=\"thumb\"><img src=\"vue_front/assets/images/home-two/envalop.png\" alt=\"\"></div><h3 class=\"t36\"><span>Sign Up For </span> Newsletter </h3></div></div><div class=\"col-lg-4 col-md-6\"><div class=\"newsLetter-one__content-box d-flex align-items-center justify-content-md-start justify-content-center wow fadeInUp animated\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"><h6 class=\"text-md-start text-center\"> Subscribe to ours weekly newsletter for all the latest updates </h6></div></div><div class=\"col-lg-4 col-md-6\"><div class=\"newsLetter-one__content-box three d-flex align-items-center justify-content-md-start justify-content-center wow fadeInUp animated\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"><form action=\"#0\" class=\"form\"><div class=\"newsLetter-one__subscribe-box\"><input type=\"email\" placeholder=\"Email address\" name=\"email\"> <button type=\"submit\" class=\"subscrib-btn\"> Subscribe </button></div></form></div></div></div></div></section>", 1);
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"categories-three overflow-hidden\"><div class=\"auto-container container\"><div class=\"row\"><div class=\"categories-three__inner pt-120 pb-120\"><div class=\"row align-items-center justify-content-xl-start justify-content-center\"><div class=\"col-xl-4 col-md-7\"><div class=\"categories-three__content text-xl-start text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"sec-title-style2 style3\"><h2>Shop by Categories</h2></div><p>Continually enhance long-term don high impact niche markets whereas user centric niche markets. actualize backward compatible...</p><div class=\"btn-box\"><a href=\"shop-grid-left-sidebar.html\" class=\"btn--primary style2\">Discover More</a></div></div></div><div class=\"col-xl-8\"><div class=\"row justify-content-center\"><div class=\"col-lg-4 col-sm-6\"><div class=\"categories-three__list-item mt-30 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"categories-three__list-item-inner\"><a href=\"shop-grid-right-sidebar.html\" class=\"img-box\"><img src=\"vue_front/assets/images/home-three/categories-v2-img1.jpg\" alt=\"\"><div class=\"text\"><span>369 Items</span></div></a><div class=\"title text-center\"><h4><a href=\"shop-grid-left-sidebar.html\">Sport’s Shoes</a></h4></div></div></div></div><div class=\"col-lg-4 col-sm-6\"><div class=\"categories-three__list-item mt-30 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"categories-three__list-item-inner\"><a href=\"shop-grid-left-sidebar.html\" class=\"img-box\"><img src=\"vue_front/assets/images/home-three/categories-v2-img2.jpg\" alt=\"\"><div class=\"text\"><span>369 Items</span></div></a><div class=\"title text-center\"><h4><a href=\"shop-grid-left-sidebar.html\">Casual Shoes</a></h4></div></div></div></div><div class=\"col-lg-4 col-sm-6\"><div class=\"categories-three__list-item mt-30 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"categories-three__list-item-inner\"><a href=\"shop-grid-left-sidebar.html\" class=\"img-box\"><img src=\"vue_front/assets/images/home-three/categories-v2-img3.jpg\" alt=\"\"><div class=\"text\"><span>369 Items</span></div></a><div class=\"title text-center\"><h4><a href=\"shop-grid-left-sidebar.html\">Office Shoes</a></h4></div></div></div></div></div></div></div></div></div></div></section>", 1);
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"core-features pt-120 mb-60 overflow-hidden\"><div class=\"container auto-container\"><div class=\"row mt--30\"><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.2s\" style=\"visibility:hidden;animation-delay:0.2s;animation-name:none;\"><div class=\"core-features__box d-flex ms-0\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"vue_front/assets/images/icon/f-icon-1.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> Secure Payment </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.3s\" style=\"visibility:hidden;animation-delay:0.3s;animation-name:none;\"><div class=\"core-features__box d-flex\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"vue_front/assets/images/icon/f-icon-2.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> 27/7 Fast Delivery </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.4s\" style=\"visibility:hidden;animation-delay:0.4s;animation-name:none;\"><div class=\"core-features__box d-flex\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"vue_front/assets/images/icon/f-icon-3.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> Return &amp; Refund </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div><div class=\"col-xxl-3 col-md-6 mt-30 wow fadeInUp animated\" data-wow-delay=\"0.5s\" style=\"visibility:hidden;animation-delay:0.5s;animation-name:none;\"><div class=\"core-features__box d-flex me-0\"><span class=\"one\"></span> <span class=\"two\"></span><div class=\"icon\"><img src=\"vue_front/assets/images/icon/f-icon-4.png\" alt=\"\"></div><div class=\"core-features__box-content\"><a href=\"login.html\" class=\"d-block\"><h4> Quality Support </h4></a><p>Everybody different which the why give offer styles for every body.</p></div></div></div></div></div></section>", 1);
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"review-one pt-60 pb-60\"><div class=\"container\"><div class=\"row\"><div class=\"col-12\"><div class=\"review-one__section-head text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"title\"><h2>What Client’s Say</h2></div><p>Over 10000 Reviews</p></div></div><div class=\"col-12 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"reviewOneSlider owl-carousel slick-initialized slick-slider\"><button class=\"arrow-back slick-arrow\" style=\"\"><i class=\"flaticon-back\"></i></button><div class=\"slick-list draggable\"><div class=\"slick-track\" style=\"opacity:1;width:4752px;transform:translate3d(-2592px, 0px, 0px);\"><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"-3\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Elaine Hayes</a></h4> <span>UI/UX Designer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"-2\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-3.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Jane Young </a></h4> <span>Web Engineer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Kim Douglas </a></h4> <span>React Developer</span></div></div></div><div class=\"review-one__single-review slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-1.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Ana Fleming </a></h4> <span> Web Developer</span></div></div></div><div class=\"review-one__single-review slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Elaine Hayes</a></h4> <span>UI/UX Designer </span></div></div></div><div class=\"review-one__single-review slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-3.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Jane Young </a></h4> <span>Web Engineer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-current slick-active\" data-slick-index=\"3\" aria-hidden=\"false\" style=\"width:432px;\" tabindex=\"0\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"0\">Kim Douglas </a></h4> <span>React Developer</span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned slick-active\" data-slick-index=\"4\" id=\"\" aria-hidden=\"false\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-1.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"0\">Ana Fleming </a></h4> <span> Web Developer</span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned slick-active\" data-slick-index=\"5\" id=\"\" aria-hidden=\"false\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"0\">Elaine Hayes</a></h4> <span>UI/UX Designer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"6\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-3.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Jane Young </a></h4> <span>Web Engineer </span></div></div></div><div class=\"review-one__single-review slick-slide slick-cloned\" data-slick-index=\"7\" id=\"\" aria-hidden=\"true\" style=\"width:432px;\" tabindex=\"-1\"><div class=\"review-one__single-content\"><div class=\"review-one__aurthor\"><div class=\"thumb\"><img src=\"vue_front/assets/images/testimonial/testimonial-v1-2.png\" alt=\"\"></div> <span class=\"quate\"><i class=\"flaticon-right-quotes-symbol\"></i></span></div><div class=\"review-one__review-text\"><p> “Quickly explot worldwide leadership long-term high-impact &quot;outside the box thinking. Quickly network synergistic enterprise customer service” </p><h4><a href=\"#0\" tabindex=\"-1\">Kim Douglas </a></h4> <span>React Developer</span></div></div></div></div></div><button class=\"arrow-next slick-arrow\" style=\"\"><i class=\"flaticon-next\"></i></button></div></div></div></div></section>", 1);
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"blog-three pt-60 pb-120 overflow-hidden\"><div class=\"container\"><div class=\"section-header style3 text-center wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><h2>Latest News </h2><p> Weekend Updates </p></div><div class=\"row justify-content-center\"><!--Start Blog Three Single--><div class=\"col-xl-4 col-lg-4 col-sm-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"blog-three__single mt-30\"><a href=\"blog-single.html\" class=\"blog-three__single-img d-block\"><img src=\"vue_front/assets/images/blog/blog-v3-1.jpg\" alt=\"\"></a><div class=\"blog-three__single-content text-center\"><span>Vendora Style</span><h4><a href=\"blog-single.html\">A Perfect Style With Our Fashion Shoes</a></h4><div class=\"btn-box\"><a href=\"blog-single.html\">Read More</a></div></div></div></div><!--End Blog Three Single--><!--Start Blog Three Single--><div class=\"col-xl-4 col-lg-4 col-sm-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"blog-three__single mt-30\"><a href=\"blog-single.html\" class=\"blog-three__single-img d-block\"><img src=\"vue_front/assets/images/blog/blog-v3-2.jpg\" alt=\"\"></a><div class=\"blog-three__single-content text-center\"><span>Vendora Style</span><h4><a href=\"blog-single.html\">2021-2021 fall-winter men&#39;s shoe trends.</a></h4><div class=\"btn-box\"><a href=\"blog-single.html\">Read More</a></div></div></div></div><!--End Blog Three Single--><!--Start Blog Three Single--><div class=\"col-xl-4 col-lg-4 col-sm-6 wow fadeInUp animated\" style=\"visibility:hidden;animation-name:none;\"><div class=\"blog-three__single mt-30\"><a href=\"blog-single.html\" class=\"blog-three__single-img d-block\"><img src=\"vue_front/assets/images/blog/blog-v3-3.jpg\" alt=\"\"></a><div class=\"blog-three__single-content text-center\"><span>Vendora Style</span><h4><a href=\"blog-single.html\">What men&#39;s shoes will be in fashion in the spring </a></h4><div class=\"btn-box\"><a href=\"blog-single.html\">Read More</a></div></div></div></div><!--End Blog Three Single--></div></div></section>", 1);
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"gallery-two wow fadeInUp animated overflow-hidden\" style=\"visibility:hidden;animation-name:none;\"><div class=\"container-fluid\"><div class=\"row\"><div class=\"col-xl-12\"><div class=\"gallery-two__slider slick-initialized slick-slider\"><button class=\"arrow-back slick-arrow\" style=\"\"><i class=\"flaticon-back\"></i></button> <div class=\"slick-list draggable\"><div class=\"slick-track\" style=\"opacity:1;width:5664px;transform:translate3d(-3068px, 0px, 0px);\"><a href=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-6\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img5.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-5\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img5.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img6.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-4\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img6.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-3\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-2\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"-1\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img1.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"0\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img1.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"1\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"2\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"3\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img5.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"4\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img5.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img6.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"5\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img6.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide\" data-slick-index=\"6\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-current slick-active\" data-slick-index=\"7\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"0\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-active\" data-slick-index=\"8\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"0\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img1.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"9\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img1.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"10\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"11\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned slick-active\" data-slick-index=\"12\" id=\"\" aria-hidden=\"false\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img5.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"13\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img5.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img6.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"14\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img6.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"15\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img2.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"16\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img3.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a><a href=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" class=\"gallery-two__single slick-slide slick-cloned\" data-slick-index=\"17\" id=\"\" aria-hidden=\"true\" style=\"width:226px;\" tabindex=\"-1\"><img src=\"vue_front/assets/images/home-three/gallery-v2-img4.jpg\" alt=\"\"> <span class=\"zoom-icon\"><i class=\"flaticon-expand\"></i></span></a></div></div> <button class=\"arrow-next slick-arrow\" style=\"\"><i class=\"flaticon-next\"></i></button></div></div></div></div></div>", 1);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" newsLetter_popup Start "), _hoisted_2, _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Start main Slider "), _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" End main Slider "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" catagory4 Start "), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" catagory4 End "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories tab Start "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories tab End "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Video Two"), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Video Two"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Products Six"), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Products Six"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Products Eight"), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Products Eight"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Products Seven"), _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Products Seven"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" newsLetter-one style-two Start "), _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" newsLetter-one style-two End "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Categories Two"), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Categories Two"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" core-features Start "), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" review-one Start "), _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" newsLetter-one Start "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Blog Three"), _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Blog Three"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("Start Gallery Two"), _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("End Gallery Two")]);
 }
