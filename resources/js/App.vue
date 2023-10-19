@@ -41,10 +41,10 @@
                                 <li>
                                     <router-link :to="{name: 'product.index'}">Products</router-link>
                                 </li>
-                                <li>
+                                <li v-if="!user">
                                     <a href="/login">Login</a>
                                 </li>
-                                <li>
+                                <li v-if="!user">
                                     <a href="/register">Register</a>
                                 </li>
                                 <li>
@@ -100,7 +100,7 @@
                                                 </div>
                                             </div>
                                             <router-link to="/login" v-if="!user">Sign In / Register</router-link>
-                                            <router-link to="/" v-if="user">{{ user.name }}</router-link>
+                                            <router-link to="/login" v-if="user">{{ user.name }}</router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -119,14 +119,12 @@
                                                     <li class="dropdown-list">
                                                         <router-link to="/products">Products</router-link>
                                                     </li>
-                                                    <template v-if="!user">
-                                                    <li class="dropdown-list">
+                                                    <li class="dropdown-list" v-if="!user">
                                                         <a href="/login">Login</a>
                                                     </li>
-                                                    <li class="dropdown-list">
+                                                    <li class="dropdown-list" v-if="!user">
                                                         <a href="/register">Register</a>
                                                     </li>
-                                                    </template>
                                                     <li class="dropdown-list" v-if="user">
                                                         <a href="#" @click.prevent="logout">Logout</a>
                                                     </li>
@@ -240,9 +238,12 @@
                                 <router-link :to="{ name: 'product.show', params: {id: product.id}}">
                                     <h6>{{ product.title }}</h6>
                                 </router-link>
-                                <p>{{ productQuantities[product.id] }} X <span>{{
-                                        (product.discount_prices ?? product.price) * productQuantities[product.id]
-                                    }}£</span></p>
+                                <p>{{ productQuantities[product.id] }} X
+                                    <span>{{
+                                        (product.discount_price ?? product.price) * productQuantities[product.id]
+                                    }}£
+                                    </span>
+                                </p>
                             </div>
                         </div>
                         <div class="right">
@@ -258,9 +259,12 @@
                     <h6 class="ammount text-uppercase">{{ cartTotalPrice }}</h6>
                 </div>
                 <div class="button-box d-flex justify-content-between">
-                    <router-link to="/cart" class="btn_black"> View Cart
-                    </router-link>
-                    <a href="#" @click.prevent="storeOrder" class="button-2 btn_theme"> Chekout </a></div>
+                    <router-link to="/cart" class="btn_black"> View Cart </router-link>
+                    <a href="#" @click.prevent="storeOrder" class="button-2 btn_theme" v-if="user !== null"> Checkout </a>
+                    <template v-else>
+                        <a href="/login" class="btn--primary style2">Checkout</a>
+                    </template>
+                </div>
             </div>
         </div>
 
@@ -366,7 +370,7 @@
                             </div>
                             <ul class="footer-links">
                                 <li><a href="my-account.html">Account</a></li>
-                                <li><a href="login.html">Sign In</a></li>
+                                <li><a href="/login">Sign In</a></li>
                                 <li><a href="cart.html">View Cart</a></li>
                                 <li><a href="wishlist.html">My WishList</a></li>
                                 <li><a href="compare.html">Compare Products</a></li>
@@ -447,6 +451,17 @@
 </template>
 
 <script>
+
+import {
+    storeOrder,
+    countProducts,
+    calculateCartSummary,
+    getProducts,
+    deleteItemsByProductId,
+    calculateProductQuantities,
+}
+from './app/cart/cart';
+
 export default {
     data() {
         return {
@@ -464,7 +479,28 @@ export default {
         this.user = window.authUser;
     },
     methods: {
+        storeOrder() {
+            storeOrder(this.axios, this.products, this.cartTotalPrice, this.user)
+        },
 
+        countProducts() {
+            this.count = countProducts(this.cartItems);
+        },
+
+        calculateCartSummary() {
+            this.cartTotalPrice = calculateCartSummary(this.cartItems, this.products);
+        },
+
+        async getProducts() {
+            this.products = await getProducts(this.axios, this.cartItems);
+            console.log(this.products);
+            this.calculateProductQuantities();
+            this.calculateCartSummary();
+        },
+
+        calculateProductQuantities() {
+            this.productQuantities = calculateProductQuantities(this.cartItems, this.products);
+        },
         logout() {
             this.axios
                 .post('/logout') // Change this to the correct logout route
@@ -478,112 +514,19 @@ export default {
                     $(document).trigger('change');
                 });
         },
-        storeOrder() {
-            this.axios
-                .post('/api/orders', {
-                    products: this.products,
-                    email: 'nazarharosh@gmail.com',
-                    name: "Nazar",
-                    address: "Ukraine",
-                    total_price: this.cartTotalPrice,
-                })
-                .then(res => {
-                    console.log(res)
-                    localStorage.removeItem('cart');
-                    location.reload();
-                })
-                .catch(error => {
-                    console.log(error.response);
-                })
-                .finally(() => {
-                    $(document).trigger('change');
-                });
-        },
-        countProducts() {
-            const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-            const uniqueProductIds = new Set();
 
-            cartItems.forEach(cartItem => {
-                uniqueProductIds.add(cartItem.id);
-            });
-
-            const productCount = uniqueProductIds.size;
-
-            console.log(productCount);
-            this.count = productCount; // Assuming you want to store the count in a 'count' data property
-        },
-
-
-        calculateCartSummary(products) {
-            this.cartTotalPrice = 0; // Initialize cart total price
-
-            this.cartItems.forEach(cartItem => {
-                const productId = cartItem.id;
-
-                const product = products.find(p => p.id === productId);
-                if (product) {
-                    const price = product.discount_price || product.price; // Use discount price if available, otherwise regular price
-                    this.cartTotalPrice += price * cartItem.qty; // Calculate total price
-                }
-            });
-        },
-
-        getProducts() {
-            const ids = this.cartItems.map(elem => {
-                return elem.id;
-            });
-            this.axios
-                .post('/api/products', {
-                    id: ids,
-                })
-                .then(res => {
-                    this.products = res.data.data;
-                    console.log(this.products)
-                    this.calculateProductQuantities(); // Calculate product quantities after getting products
-                    this.calculateCartSummary(this.products)
-                })
-                .catch(error => {
-                    console.log(error.response);
-                })
-                .finally(() => {
-                    $(document).trigger('change');
-                });
-        },
         getCartItems() {
             this.cartItems = JSON.parse(localStorage.getItem('cart')) || [];
             this.getProducts();
-            this.countProducts()
+            this.countProducts();
         },
 
         deleteItemsByProductId(productId) {
-            const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-
-            // Filter out items that match the specified product id
-            const updatedCartItems = cartItems.filter(item => item.id !== productId);
-
-            // Update the local storage with the filtered items
-            localStorage.setItem('cart', JSON.stringify(updatedCartItems));
-
-            // Update the cartItems data property to reflect the changes
-            this.cartItems = updatedCartItems;
-
+            this.cartItems = deleteItemsByProductId(productId, this.cartItems);
             this.getCartItems();
         },
 
-        calculateProductQuantities() {
-            // Reset the product quantities object
-            this.productQuantities = {};
 
-            // Loop through cartItems and calculate quantities based on product id
-            this.cartItems.forEach(cartItem => {
-                const productId = cartItem.id;
-                const product = this.products.find(p => p.id === productId);
-                if (product) {
-                    // If the product is found, calculate the quantity
-                    this.productQuantities[productId] = cartItem.qty;
-                }
-            });
-        },
     },
 };
 

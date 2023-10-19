@@ -74,7 +74,7 @@ Route::group(['prefix' => 'admin', "namespace" => 'App\Http\Controllers\Admin',]
 Auth::routes();
 
 Route::get('/', \App\Http\Controllers\Client\MainController::class);
-Route::post('/checkout', \App\Http\Controllers\Order\IndexController::class)->name('checkout');
+Route::get('{page}', \App\Http\Controllers\Client\MainController::class)->where('page', '.+');
 
 
 

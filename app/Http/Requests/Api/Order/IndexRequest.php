@@ -22,8 +22,9 @@ class IndexRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'products' => 'nullable|array',
-            'name' => 'nullable|string',
+            'user_id' => 'required|integer',
+            'products' => 'required|array',
+            'name' => 'required|string',
             'email' => 'required|email',
             'address' => 'nullable|string',
             'total_price' => 'nullable|integer',
